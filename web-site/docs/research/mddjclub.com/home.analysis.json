@@ -1,0 +1,1729 @@
+{
+  "title": "蒙佳哆商行 - 专业游戏账号租赁平台",
+  "lang": "zh-CN",
+  "body": {
+    "className": "",
+    "backgroundColor": "rgb(245, 247, 250)",
+    "color": "rgb(51, 51, 51)",
+    "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif"
+  },
+  "meta": [
+    {
+      "name": null,
+      "property": null,
+      "content": null
+    },
+    {
+      "name": "viewport",
+      "property": null,
+      "content": "width=device-width, initial-scale=1.0"
+    },
+    {
+      "name": "description",
+      "property": null,
+      "content": "国内专业的游戏账号租赁平台，提供安全、便捷、低价的一站式租号服务。"
+    }
+  ],
+  "links": [
+    {
+      "rel": "icon",
+      "href": "https://www.mddjclub.com/vite.svg"
+    },
+    {
+      "rel": "stylesheet",
+      "href": "https://trans.mddjclub.com/assets/addons/fastim/css/fastim_default.css"
+    },
+    {
+      "rel": "stylesheet",
+      "href": "https://www.mddjclub.com/webStatic/index-BceMqJGx.css"
+    }
+  ],
+  "nav": [
+    {
+      "tag": "nav",
+      "className": "navbar-wrapper",
+      "id": "",
+      "text": "欢迎来到蒙佳哆商行平台！我的订单|我的钱包|联系客服|登录首页租号大厅求购列表个人中心账号上架求购客服",
+      "href": null,
+      "src": null,
+      "rect": {
+        "width": 1709,
+        "height": 116
+      },
+      "style": {
+        "color": "rgb(51, 51, 51)",
+        "backgroundColor": "rgb(255, 255, 255)",
+        "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "14px",
+        "fontWeight": "400",
+        "lineHeight": "21px",
+        "borderRadius": "0px",
+        "boxShadow": "rgba(0, 0, 0, 0.05) 0px 2px 4px 0px",
+        "display": "block",
+        "position": "fixed",
+        "gap": "normal"
+      }
+    },
+    {
+      "tag": "a",
+      "className": "top-link",
+      "id": "",
+      "text": "我的订单",
+      "href": "/profile",
+      "src": null,
+      "rect": {
+        "width": 49,
+        "height": 18
+      },
+      "style": {
+        "color": "rgb(102, 102, 102)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "lineHeight": "18px",
+        "borderRadius": "0px",
+        "boxShadow": "none",
+        "display": "block",
+        "position": "static",
+        "gap": "normal"
+      }
+    },
+    {
+      "tag": "a",
+      "className": "top-link",
+      "id": "",
+      "text": "我的钱包",
+      "href": "/profile/wallet",
+      "src": null,
+      "rect": {
+        "width": 49,
+        "height": 18
+      },
+      "style": {
+        "color": "rgb(102, 102, 102)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "lineHeight": "18px",
+        "borderRadius": "0px",
+        "boxShadow": "none",
+        "display": "block",
+        "position": "static",
+        "gap": "normal"
+      }
+    },
+    {
+      "tag": "a",
+      "className": "top-link",
+      "id": "",
+      "text": "联系客服",
+      "href": "#",
+      "src": null,
+      "rect": {
+        "width": 49,
+        "height": 18
+      },
+      "style": {
+        "color": "rgb(102, 102, 102)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "lineHeight": "18px",
+        "borderRadius": "0px",
+        "boxShadow": "none",
+        "display": "block",
+        "position": "static",
+        "gap": "normal"
+      }
+    },
+    {
+      "tag": "a",
+      "className": "login-link",
+      "id": "",
+      "text": "登录",
+      "href": "/login",
+      "src": null,
+      "rect": {
+        "width": 25,
+        "height": 18
+      },
+      "style": {
+        "color": "rgb(58, 142, 230)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "12px",
+        "fontWeight": "600",
+        "lineHeight": "18px",
+        "borderRadius": "0px",
+        "boxShadow": "none",
+        "display": "block",
+        "position": "static",
+        "gap": "normal"
+      }
+    },
+    {
+      "tag": "a",
+      "className": "router-link-active router-link-exact-active logo",
+      "id": "",
+      "text": "",
+      "href": "/",
+      "src": null,
+      "rect": {
+        "width": 121,
+        "height": 40
+      },
+      "style": {
+        "color": "rgb(51, 51, 51)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "14px",
+        "fontWeight": "400",
+        "lineHeight": "21px",
+        "borderRadius": "0px",
+        "boxShadow": "none",
+        "display": "flex",
+        "position": "static",
+        "gap": "normal"
+      }
+    },
+    {
+      "tag": "a",
+      "className": "router-link-active router-link-exact-active nav-link active",
+      "id": "",
+      "text": "首页",
+      "href": "/",
+      "src": null,
+      "rect": {
+        "width": 33,
+        "height": 40
+      },
+      "style": {
+        "color": "rgb(58, 142, 230)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "500",
+        "lineHeight": "24px",
+        "borderRadius": "0px",
+        "boxShadow": "none",
+        "display": "block",
+        "position": "relative",
+        "gap": "normal"
+      }
+    },
+    {
+      "tag": "a",
+      "className": "nav-link",
+      "id": "",
+      "text": "租号大厅",
+      "href": "/list",
+      "src": null,
+      "rect": {
+        "width": 65,
+        "height": 40
+      },
+      "style": {
+        "color": "rgb(51, 51, 51)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "500",
+        "lineHeight": "24px",
+        "borderRadius": "0px",
+        "boxShadow": "none",
+        "display": "block",
+        "position": "relative",
+        "gap": "normal"
+      }
+    },
+    {
+      "tag": "a",
+      "className": "nav-link",
+      "id": "",
+      "text": "求购列表",
+      "href": "/recovery-list",
+      "src": null,
+      "rect": {
+        "width": 65,
+        "height": 40
+      },
+      "style": {
+        "color": "rgb(51, 51, 51)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "500",
+        "lineHeight": "24px",
+        "borderRadius": "0px",
+        "boxShadow": "none",
+        "display": "block",
+        "position": "relative",
+        "gap": "normal"
+      }
+    },
+    {
+      "tag": "a",
+      "className": "nav-link",
+      "id": "",
+      "text": "个人中心",
+      "href": "/profile",
+      "src": null,
+      "rect": {
+        "width": 65,
+        "height": 40
+      },
+      "style": {
+        "color": "rgb(51, 51, 51)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "500",
+        "lineHeight": "24px",
+        "borderRadius": "0px",
+        "boxShadow": "none",
+        "display": "block",
+        "position": "relative",
+        "gap": "normal"
+      }
+    }
+  ],
+  "buttons": [
+    {
+      "tag": "button",
+      "className": "quick-action publish-action",
+      "id": "",
+      "text": "账号上架",
+      "href": null,
+      "src": null,
+      "rect": {
+        "width": 107,
+        "height": 42
+      },
+      "style": {
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgb(17, 17, 17)",
+        "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "900",
+        "lineHeight": "normal",
+        "borderRadius": "5px",
+        "boxShadow": "none",
+        "display": "flex",
+        "position": "static",
+        "gap": "4px"
+      }
+    },
+    {
+      "tag": "button",
+      "className": "quick-action recovery-action",
+      "id": "",
+      "text": "求购",
+      "href": null,
+      "src": null,
+      "rect": {
+        "width": 71,
+        "height": 42
+      },
+      "style": {
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgb(255, 107, 0)",
+        "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "900",
+        "lineHeight": "normal",
+        "borderRadius": "5px",
+        "boxShadow": "none",
+        "display": "flex",
+        "position": "static",
+        "gap": "4px"
+      }
+    },
+    {
+      "tag": "button",
+      "className": "quick-action kefu-action",
+      "id": "",
+      "text": "客服",
+      "href": null,
+      "src": null,
+      "rect": {
+        "width": 93,
+        "height": 42
+      },
+      "style": {
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgb(58, 142, 230)",
+        "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "900",
+        "lineHeight": "normal",
+        "borderRadius": "5px",
+        "boxShadow": "none",
+        "display": "flex",
+        "position": "static",
+        "gap": "4px"
+      }
+    },
+    {
+      "tag": "button",
+      "className": "action-btn menu-toggle",
+      "id": "",
+      "text": "",
+      "href": null,
+      "src": null,
+      "rect": {
+        "width": 0,
+        "height": 0
+      },
+      "style": {
+        "color": "rgb(102, 102, 102)",
+        "backgroundColor": "rgb(245, 247, 250)",
+        "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "13.3333px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "borderRadius": "50%",
+        "boxShadow": "none",
+        "display": "none",
+        "position": "static",
+        "gap": "normal"
+      }
+    },
+    {
+      "tag": "button",
+      "className": "el-carousel__arrow el-carousel__arrow--left",
+      "id": "",
+      "text": "",
+      "href": null,
+      "src": null,
+      "rect": {
+        "width": 36,
+        "height": 36
+      },
+      "style": {
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(31, 45, 61, 0.11)",
+        "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "borderRadius": "50%",
+        "boxShadow": "none",
+        "display": "flex",
+        "position": "absolute",
+        "gap": "normal"
+      }
+    },
+    {
+      "tag": "button",
+      "className": "el-carousel__arrow el-carousel__arrow--right",
+      "id": "",
+      "text": "",
+      "href": null,
+      "src": null,
+      "rect": {
+        "width": 36,
+        "height": 36
+      },
+      "style": {
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(31, 45, 61, 0.11)",
+        "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "borderRadius": "50%",
+        "boxShadow": "none",
+        "display": "flex",
+        "position": "absolute",
+        "gap": "normal"
+      }
+    },
+    {
+      "tag": "button",
+      "className": "el-carousel__button",
+      "id": "",
+      "text": "",
+      "href": null,
+      "src": null,
+      "rect": {
+        "width": 10,
+        "height": 10
+      },
+      "style": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgb(255, 255, 255)",
+        "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "13.3333px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "borderRadius": "999px",
+        "boxShadow": "none",
+        "display": "block",
+        "position": "static",
+        "gap": "normal"
+      }
+    },
+    {
+      "tag": "button",
+      "className": "el-carousel__button",
+      "id": "",
+      "text": "",
+      "href": null,
+      "src": null,
+      "rect": {
+        "width": 10,
+        "height": 10
+      },
+      "style": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(255, 255, 255, 0.45)",
+        "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "13.3333px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "borderRadius": "999px",
+        "boxShadow": "none",
+        "display": "block",
+        "position": "static",
+        "gap": "normal"
+      }
+    },
+    {
+      "tag": "button",
+      "className": "el-carousel__button",
+      "id": "",
+      "text": "",
+      "href": null,
+      "src": null,
+      "rect": {
+        "width": 10,
+        "height": 10
+      },
+      "style": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(255, 255, 255, 0.45)",
+        "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "13.3333px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "borderRadius": "999px",
+        "boxShadow": "none",
+        "display": "block",
+        "position": "static",
+        "gap": "normal"
+      }
+    },
+    {
+      "tag": "button",
+      "className": "el-carousel__button",
+      "id": "",
+      "text": "",
+      "href": null,
+      "src": null,
+      "rect": {
+        "width": 10,
+        "height": 10
+      },
+      "style": {
+        "color": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(255, 255, 255, 0.45)",
+        "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "13.3333px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "borderRadius": "999px",
+        "boxShadow": "none",
+        "display": "block",
+        "position": "static",
+        "gap": "normal"
+      }
+    },
+    {
+      "tag": "button",
+      "className": "el-button el-button--primary el-button--large is-plain",
+      "id": "",
+      "text": "查看更多",
+      "href": null,
+      "src": null,
+      "rect": {
+        "width": 111,
+        "height": 40
+      },
+      "style": {
+        "color": "rgb(64, 158, 255)",
+        "backgroundColor": "rgb(236, 245, 255)",
+        "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "14px",
+        "fontWeight": "500",
+        "lineHeight": "14px",
+        "borderRadius": "4px",
+        "boxShadow": "none",
+        "display": "inline-flex",
+        "position": "static",
+        "gap": "normal"
+      }
+    },
+    {
+      "tag": "button",
+      "className": "el-button el-button--primary is-round rent-btn",
+      "id": "",
+      "text": "立即租号",
+      "href": null,
+      "src": null,
+      "rect": {
+        "width": 0,
+        "height": 0
+      },
+      "style": {
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgb(64, 158, 255)",
+        "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "14px",
+        "fontWeight": "500",
+        "lineHeight": "14px",
+        "borderRadius": "20px",
+        "boxShadow": "none",
+        "display": "flex",
+        "position": "static",
+        "gap": "normal"
+      }
+    },
+    {
+      "tag": "button",
+      "className": "el-button el-button--primary is-round rent-btn",
+      "id": "",
+      "text": "立即租号",
+      "href": null,
+      "src": null,
+      "rect": {
+        "width": 0,
+        "height": 0
+      },
+      "style": {
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgb(64, 158, 255)",
+        "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "14px",
+        "fontWeight": "500",
+        "lineHeight": "14px",
+        "borderRadius": "20px",
+        "boxShadow": "none",
+        "display": "flex",
+        "position": "static",
+        "gap": "normal"
+      }
+    },
+    {
+      "tag": "button",
+      "className": "el-button el-button--primary is-round rent-btn",
+      "id": "",
+      "text": "立即租号",
+      "href": null,
+      "src": null,
+      "rect": {
+        "width": 0,
+        "height": 0
+      },
+      "style": {
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgb(64, 158, 255)",
+        "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "14px",
+        "fontWeight": "500",
+        "lineHeight": "14px",
+        "borderRadius": "20px",
+        "boxShadow": "none",
+        "display": "flex",
+        "position": "static",
+        "gap": "normal"
+      }
+    },
+    {
+      "tag": "button",
+      "className": "el-button el-button--primary el-button--large is-plain",
+      "id": "",
+      "text": "查看更多优质账号",
+      "href": null,
+      "src": null,
+      "rect": {
+        "width": 0,
+        "height": 0
+      },
+      "style": {
+        "color": "rgb(64, 158, 255)",
+        "backgroundColor": "rgb(236, 245, 255)",
+        "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "14px",
+        "fontWeight": "500",
+        "lineHeight": "14px",
+        "borderRadius": "4px",
+        "boxShadow": "none",
+        "display": "inline-flex",
+        "position": "static",
+        "gap": "normal"
+      }
+    }
+  ],
+  "forms": [
+    {
+      "tag": "input",
+      "className": "el-input__inner",
+      "id": "el-id-8471-2",
+      "text": "",
+      "href": null,
+      "src": null,
+      "rect": {
+        "width": 194,
+        "height": 30
+      },
+      "style": {
+        "color": "rgb(96, 98, 102)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Arial",
+        "fontSize": "14px",
+        "fontWeight": "400",
+        "lineHeight": "30px",
+        "borderRadius": "0px",
+        "boxShadow": "none",
+        "display": "block",
+        "position": "static",
+        "gap": "normal"
+      }
+    }
+  ],
+  "images": [
+    {
+      "src": "https://oss.mddjclub.com/uploads/20260407/309643b3a2e3d7ec815fc83c1c16c969.png",
+      "alt": "蒙佳哆商行",
+      "width": 476,
+      "height": 158
+    },
+    {
+      "src": "https://oss.mddjclub.com/uploads/20260212/e6428ed2ce24a95e2285e97482a56acb.jpg",
+      "alt": "三角洲",
+      "width": 869,
+      "height": 505
+    },
+    {
+      "src": "https://www.mddjclub.com/webStatic/hafu-B1o76fjS.png",
+      "alt": "",
+      "width": 64,
+      "height": 46
+    },
+    {
+      "src": "https://www.mddjclub.com/webStatic/hafu-B1o76fjS.png",
+      "alt": "",
+      "width": 64,
+      "height": 46
+    },
+    {
+      "src": "https://www.mddjclub.com/webStatic/hafu-B1o76fjS.png",
+      "alt": "",
+      "width": 64,
+      "height": 46
+    },
+    {
+      "src": "https://www.mddjclub.com/webStatic/hafu-B1o76fjS.png",
+      "alt": "",
+      "width": 64,
+      "height": 46
+    },
+    {
+      "src": "https://www.mddjclub.com/webStatic/hafu-B1o76fjS.png",
+      "alt": "",
+      "width": 64,
+      "height": 46
+    },
+    {
+      "src": "https://www.mddjclub.com/webStatic/hafu-B1o76fjS.png",
+      "alt": "",
+      "width": 64,
+      "height": 46
+    },
+    {
+      "src": "https://www.mddjclub.com/webStatic/hafu-B1o76fjS.png",
+      "alt": "",
+      "width": 64,
+      "height": 46
+    },
+    {
+      "src": "https://www.mddjclub.com/webStatic/hafu-B1o76fjS.png",
+      "alt": "",
+      "width": 64,
+      "height": 46
+    },
+    {
+      "src": "https://www.mddjclub.com/webStatic/hafu-B1o76fjS.png",
+      "alt": "",
+      "width": 64,
+      "height": 46
+    },
+    {
+      "src": "https://www.mddjclub.com/webStatic/hafu-B1o76fjS.png",
+      "alt": "",
+      "width": 64,
+      "height": 46
+    },
+    {
+      "src": "https://www.mddjclub.com/webStatic/hafu-B1o76fjS.png",
+      "alt": "",
+      "width": 64,
+      "height": 46
+    },
+    {
+      "src": "https://www.mddjclub.com/webStatic/hafu-B1o76fjS.png",
+      "alt": "",
+      "width": 64,
+      "height": 46
+    },
+    {
+      "src": "https://www.mddjclub.com/webStatic/hafu-B1o76fjS.png",
+      "alt": "",
+      "width": 64,
+      "height": 46
+    },
+    {
+      "src": "https://www.mddjclub.com/webStatic/hafu-B1o76fjS.png",
+      "alt": "",
+      "width": 64,
+      "height": 46
+    },
+    {
+      "src": "https://www.mddjclub.com/webStatic/hafu-B1o76fjS.png",
+      "alt": "",
+      "width": 64,
+      "height": 46
+    },
+    {
+      "src": "https://www.mddjclub.com/webStatic/hafu-B1o76fjS.png",
+      "alt": "",
+      "width": 64,
+      "height": 46
+    },
+    {
+      "src": "https://www.mddjclub.com/webStatic/hafu-B1o76fjS.png",
+      "alt": "",
+      "width": 64,
+      "height": 46
+    },
+    {
+      "src": "https://www.mddjclub.com/webStatic/hafu-B1o76fjS.png",
+      "alt": "",
+      "width": 64,
+      "height": 46
+    },
+    {
+      "src": "https://www.mddjclub.com/webStatic/hafu-B1o76fjS.png",
+      "alt": "",
+      "width": 64,
+      "height": 46
+    },
+    {
+      "src": "https://www.mddjclub.com/webStatic/hafu-B1o76fjS.png",
+      "alt": "",
+      "width": 64,
+      "height": 46
+    },
+    {
+      "src": "https://www.mddjclub.com/webStatic/hafu-B1o76fjS.png",
+      "alt": "",
+      "width": 64,
+      "height": 46
+    },
+    {
+      "src": "https://www.mddjclub.com/webStatic/hafu-B1o76fjS.png",
+      "alt": "",
+      "width": 64,
+      "height": 46
+    },
+    {
+      "src": "https://www.mddjclub.com/webStatic/hafu-B1o76fjS.png",
+      "alt": "",
+      "width": 64,
+      "height": 46
+    },
+    {
+      "src": "https://www.mddjclub.com/webStatic/hafu-B1o76fjS.png",
+      "alt": "",
+      "width": 64,
+      "height": 46
+    },
+    {
+      "src": "https://www.mddjclub.com/webStatic/hafu-B1o76fjS.png",
+      "alt": "",
+      "width": 64,
+      "height": 46
+    },
+    {
+      "src": "https://www.mddjclub.com/webStatic/hafu-B1o76fjS.png",
+      "alt": "",
+      "width": 64,
+      "height": 46
+    },
+    {
+      "src": "https://www.mddjclub.com/webStatic/hafu-B1o76fjS.png",
+      "alt": "",
+      "width": 64,
+      "height": 46
+    },
+    {
+      "src": "https://www.mddjclub.com/webStatic/hafu-B1o76fjS.png",
+      "alt": "",
+      "width": 64,
+      "height": 46
+    },
+    {
+      "src": "https://www.mddjclub.com/webStatic/hafu-B1o76fjS.png",
+      "alt": "",
+      "width": 64,
+      "height": 46
+    },
+    {
+      "src": "https://www.mddjclub.com/webStatic/hafu-B1o76fjS.png",
+      "alt": "",
+      "width": 64,
+      "height": 46
+    },
+    {
+      "src": "https://www.mddjclub.com/webStatic/hafu-B1o76fjS.png",
+      "alt": "",
+      "width": 64,
+      "height": 46
+    },
+    {
+      "src": "https://www.mddjclub.com/webStatic/hafu-B1o76fjS.png",
+      "alt": "",
+      "width": 64,
+      "height": 46
+    },
+    {
+      "src": "https://www.mddjclub.com/webStatic/hafu-B1o76fjS.png",
+      "alt": "",
+      "width": 64,
+      "height": 46
+    },
+    {
+      "src": "https://www.mddjclub.com/webStatic/hafu-B1o76fjS.png",
+      "alt": "",
+      "width": 64,
+      "height": 46
+    },
+    {
+      "src": "https://www.mddjclub.com/webStatic/hafu-B1o76fjS.png",
+      "alt": "",
+      "width": 64,
+      "height": 46
+    },
+    {
+      "src": "https://www.mddjclub.com/webStatic/hafu-B1o76fjS.png",
+      "alt": "",
+      "width": 64,
+      "height": 46
+    },
+    {
+      "src": "https://www.mddjclub.com/webStatic/hafu-B1o76fjS.png",
+      "alt": "",
+      "width": 64,
+      "height": 46
+    },
+    {
+      "src": "https://www.mddjclub.com/webStatic/hafu-B1o76fjS.png",
+      "alt": "",
+      "width": 64,
+      "height": 46
+    },
+    {
+      "src": "https://www.mddjclub.com/webStatic/hafu-B1o76fjS.png",
+      "alt": "",
+      "width": 64,
+      "height": 46
+    },
+    {
+      "src": "https://www.mddjclub.com/webStatic/hafu-B1o76fjS.png",
+      "alt": "",
+      "width": 64,
+      "height": 46
+    },
+    {
+      "src": "https://www.mddjclub.com/webStatic/hafu-B1o76fjS.png",
+      "alt": "",
+      "width": 64,
+      "height": 46
+    },
+    {
+      "src": "https://www.mddjclub.com/webStatic/hafu-B1o76fjS.png",
+      "alt": "",
+      "width": 64,
+      "height": 46
+    },
+    {
+      "src": "https://www.mddjclub.com/webStatic/hafu-B1o76fjS.png",
+      "alt": "",
+      "width": 64,
+      "height": 46
+    },
+    {
+      "src": "https://www.mddjclub.com/webStatic/hafu-B1o76fjS.png",
+      "alt": "",
+      "width": 64,
+      "height": 46
+    },
+    {
+      "src": "https://www.mddjclub.com/webStatic/hafu-B1o76fjS.png",
+      "alt": "",
+      "width": 64,
+      "height": 46
+    },
+    {
+      "src": "https://www.mddjclub.com/webStatic/hafu-B1o76fjS.png",
+      "alt": "",
+      "width": 64,
+      "height": 46
+    },
+    {
+      "src": "https://www.mddjclub.com/webStatic/hafu-B1o76fjS.png",
+      "alt": "",
+      "width": 64,
+      "height": 46
+    },
+    {
+      "src": "https://www.mddjclub.com/webStatic/hafu-B1o76fjS.png",
+      "alt": "",
+      "width": 64,
+      "height": 46
+    },
+    {
+      "src": "https://www.mddjclub.com/webStatic/hafu-B1o76fjS.png",
+      "alt": "",
+      "width": 64,
+      "height": 46
+    },
+    {
+      "src": "https://www.mddjclub.com/webStatic/hafu-B1o76fjS.png",
+      "alt": "",
+      "width": 64,
+      "height": 46
+    },
+    {
+      "src": "https://www.mddjclub.com/webStatic/hafu-B1o76fjS.png",
+      "alt": "",
+      "width": 64,
+      "height": 46
+    },
+    {
+      "src": "https://www.mddjclub.com/webStatic/hafu-B1o76fjS.png",
+      "alt": "",
+      "width": 64,
+      "height": 46
+    },
+    {
+      "src": "https://www.mddjclub.com/webStatic/hafu-B1o76fjS.png",
+      "alt": "",
+      "width": 64,
+      "height": 46
+    },
+    {
+      "src": "https://www.mddjclub.com/webStatic/hafu-B1o76fjS.png",
+      "alt": "",
+      "width": 64,
+      "height": 46
+    },
+    {
+      "src": "https://www.mddjclub.com/webStatic/hafu-B1o76fjS.png",
+      "alt": "",
+      "width": 64,
+      "height": 46
+    },
+    {
+      "src": "https://www.mddjclub.com/webStatic/hafu-B1o76fjS.png",
+      "alt": "",
+      "width": 64,
+      "height": 46
+    },
+    {
+      "src": "https://www.mddjclub.com/webStatic/hafu-B1o76fjS.png",
+      "alt": "",
+      "width": 64,
+      "height": 46
+    },
+    {
+      "src": "https://www.mddjclub.com/webStatic/hafu-B1o76fjS.png",
+      "alt": "",
+      "width": 64,
+      "height": 46
+    },
+    {
+      "src": "https://www.mddjclub.com/webStatic/hafu-B1o76fjS.png",
+      "alt": "",
+      "width": 64,
+      "height": 46
+    },
+    {
+      "src": "https://www.mddjclub.com/webStatic/hafu-B1o76fjS.png",
+      "alt": "",
+      "width": 64,
+      "height": 46
+    },
+    {
+      "src": "https://oss.mddjclub.com/uploads/20260707/26dc0d80822127a6c7b5fecba15ca2c4.jpg",
+      "alt": "钻石2099m9格7体7负",
+      "width": 3168,
+      "height": 1440
+    },
+    {
+      "src": "https://lease123.oss-cn-beijing.aliyuncs.com/uploads/20260311/5c8df237b49c7471e317b0b90b7f9df4.png",
+      "alt": "",
+      "width": 120,
+      "height": 120
+    },
+    {
+      "src": "https://oss.mddjclub.com/uploads/20260708/f9b5b396bbda30996d6f0922351440aa.jpg",
+      "alt": "黄金2099m9格7体7负",
+      "width": 2376,
+      "height": 1080
+    },
+    {
+      "src": "https://oss.mddjclub.com/uploads/20260311/5c8df237b49c7471e317b0b90b7f9df4.png",
+      "alt": "",
+      "width": 120,
+      "height": 120
+    },
+    {
+      "src": "https://oss.mddjclub.com/uploads/20260707/5ed524b91cd1b641f8819a8389244459.png",
+      "alt": "铂金1036m9格7体7负",
+      "width": 1919,
+      "height": 988
+    },
+    {
+      "src": "https://oss.mddjclub.com/uploads/20260311/5c8df237b49c7471e317b0b90b7f9df4.png",
+      "alt": "",
+      "width": 120,
+      "height": 120
+    },
+    {
+      "src": "https://oss.mddjclub.com/uploads/20260708/9d1598d01775260511093b62240d033a.jpg",
+      "alt": "钻石1821m9格7体7负",
+      "width": 2670,
+      "height": 1200
+    },
+    {
+      "src": "https://oss.mddjclub.com/uploads/20260311/5c8df237b49c7471e317b0b90b7f9df4.png",
+      "alt": "",
+      "width": 120,
+      "height": 120
+    },
+    {
+      "src": "https://oss.mddjclub.com/uploads/20260708/ff76a6d620deaeae9bb372579d5c4fb6.jpg",
+      "alt": "钻石953m9格7体7负",
+      "width": 2376,
+      "height": 1080
+    },
+    {
+      "src": "https://oss.mddjclub.com/uploads/20260311/5c8df237b49c7471e317b0b90b7f9df4.png",
+      "alt": "",
+      "width": 120,
+      "height": 120
+    },
+    {
+      "src": "https://oss.mddjclub.com/uploads/20260708/abcba28b06727249ec90baf7b3b74220.png",
+      "alt": "铂金770m9格7体7负",
+      "width": 2560,
+      "height": 1440
+    },
+    {
+      "src": "https://oss.mddjclub.com/uploads/20260311/5c8df237b49c7471e317b0b90b7f9df4.png",
+      "alt": "",
+      "width": 120,
+      "height": 120
+    },
+    {
+      "src": "https://oss.mddjclub.com/uploads/20260407/309643b3a2e3d7ec815fc83c1c16c969.png",
+      "alt": "蒙佳哆商行",
+      "width": 476,
+      "height": 158
+    }
+  ],
+  "sections": [
+    {
+      "tag": "div",
+      "className": "",
+      "id": "app",
+      "text": "欢迎来到蒙佳哆商行平台！我的订单|我的钱包|联系客服|登录首页租号大厅求购列表个人中心账号上架求购客服热门游戏分类三角洲三角洲 分类三角洲 立即进入 哈夫币行情 更新时间 2026-07-04， 以下比例展示均为977带刀皮账号 查看更多 商行比例备注更新时间红猫商行46.00封号赔付押金+租金，墨羽代言2026-07-04长官商行45.00封禁赔付账号80%，白泽代言2026-07-04叮当商行49.00封号全额赔偿，棠舟+老飞宇代言2026-07-04纯欲风商行45.00",
+      "href": null,
+      "src": null,
+      "rect": {
+        "width": 1709,
+        "height": 2816
+      },
+      "style": {
+        "color": "rgb(51, 51, 51)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "14px",
+        "fontWeight": "400",
+        "lineHeight": "21px",
+        "borderRadius": "0px",
+        "boxShadow": "none",
+        "display": "block",
+        "position": "static",
+        "gap": "normal"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "home-page",
+      "id": "",
+      "text": "热门游戏分类三角洲三角洲 分类三角洲 立即进入 哈夫币行情 更新时间 2026-07-04， 以下比例展示均为977带刀皮账号 查看更多 商行比例备注更新时间红猫商行46.00封号赔付押金+租金，墨羽代言2026-07-04长官商行45.00封禁赔付账号80%，白泽代言2026-07-04叮当商行49.00封号全额赔偿，棠舟+老飞宇代言2026-07-04纯欲风商行45.00封号赔付押金+租金，多主播代言2026-07-04奇卡哇商行41.00封号赔付押金+租金，业内龙头20",
+      "href": null,
+      "src": null,
+      "rect": {
+        "width": 1709,
+        "height": 2314
+      },
+      "style": {
+        "color": "rgb(51, 51, 51)",
+        "backgroundColor": "rgb(245, 247, 250)",
+        "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "14px",
+        "fontWeight": "400",
+        "lineHeight": "21px",
+        "borderRadius": "0px",
+        "boxShadow": "none",
+        "display": "block",
+        "position": "static",
+        "gap": "normal"
+      }
+    }
+  ],
+  "cards": [
+    {
+      "tag": "li",
+      "className": "menu-item",
+      "id": "",
+      "text": "三角洲三角洲 分类三角洲 立即进入",
+      "href": null,
+      "src": null,
+      "rect": {
+        "width": 240,
+        "height": 52
+      },
+      "style": {
+        "color": "rgb(51, 51, 51)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "14px",
+        "fontWeight": "400",
+        "lineHeight": "21px",
+        "borderRadius": "0px",
+        "boxShadow": "none",
+        "display": "flex",
+        "position": "relative",
+        "gap": "normal"
+      }
+    },
+    {
+      "tag": "li",
+      "className": "el-carousel__indicator el-carousel__indicator--horizontal is-active",
+      "id": "",
+      "text": "",
+      "href": null,
+      "src": null,
+      "rect": {
+        "width": 18,
+        "height": 34
+      },
+      "style": {
+        "color": "rgb(51, 51, 51)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "14px",
+        "fontWeight": "400",
+        "lineHeight": "21px",
+        "borderRadius": "0px",
+        "boxShadow": "none",
+        "display": "inline-block",
+        "position": "static",
+        "gap": "normal"
+      }
+    },
+    {
+      "tag": "li",
+      "className": "el-carousel__indicator el-carousel__indicator--horizontal",
+      "id": "",
+      "text": "",
+      "href": null,
+      "src": null,
+      "rect": {
+        "width": 18,
+        "height": 34
+      },
+      "style": {
+        "color": "rgb(51, 51, 51)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "14px",
+        "fontWeight": "400",
+        "lineHeight": "21px",
+        "borderRadius": "0px",
+        "boxShadow": "none",
+        "display": "inline-block",
+        "position": "static",
+        "gap": "normal"
+      }
+    },
+    {
+      "tag": "li",
+      "className": "el-carousel__indicator el-carousel__indicator--horizontal",
+      "id": "",
+      "text": "",
+      "href": null,
+      "src": null,
+      "rect": {
+        "width": 18,
+        "height": 34
+      },
+      "style": {
+        "color": "rgb(51, 51, 51)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "14px",
+        "fontWeight": "400",
+        "lineHeight": "21px",
+        "borderRadius": "0px",
+        "boxShadow": "none",
+        "display": "inline-block",
+        "position": "static",
+        "gap": "normal"
+      }
+    },
+    {
+      "tag": "li",
+      "className": "el-carousel__indicator el-carousel__indicator--horizontal",
+      "id": "",
+      "text": "",
+      "href": null,
+      "src": null,
+      "rect": {
+        "width": 18,
+        "height": 34
+      },
+      "style": {
+        "color": "rgb(51, 51, 51)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "14px",
+        "fontWeight": "400",
+        "lineHeight": "21px",
+        "borderRadius": "0px",
+        "boxShadow": "none",
+        "display": "inline-block",
+        "position": "static",
+        "gap": "normal"
+      }
+    },
+    {
+      "tag": "li",
+      "className": "",
+      "id": "",
+      "text": "首页",
+      "href": null,
+      "src": null,
+      "rect": {
+        "width": 191,
+        "height": 21
+      },
+      "style": {
+        "color": "rgb(174, 178, 191)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "14px",
+        "fontWeight": "400",
+        "lineHeight": "21px",
+        "borderRadius": "0px",
+        "boxShadow": "none",
+        "display": "list-item",
+        "position": "static",
+        "gap": "normal"
+      }
+    },
+    {
+      "tag": "li",
+      "className": "",
+      "id": "",
+      "text": "租号大厅",
+      "href": null,
+      "src": null,
+      "rect": {
+        "width": 191,
+        "height": 21
+      },
+      "style": {
+        "color": "rgb(174, 178, 191)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "14px",
+        "fontWeight": "400",
+        "lineHeight": "21px",
+        "borderRadius": "0px",
+        "boxShadow": "none",
+        "display": "list-item",
+        "position": "static",
+        "gap": "normal"
+      }
+    },
+    {
+      "tag": "li",
+      "className": "",
+      "id": "",
+      "text": "常见问题",
+      "href": null,
+      "src": null,
+      "rect": {
+        "width": 191,
+        "height": 21
+      },
+      "style": {
+        "color": "rgb(174, 178, 191)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "14px",
+        "fontWeight": "400",
+        "lineHeight": "21px",
+        "borderRadius": "0px",
+        "boxShadow": "none",
+        "display": "list-item",
+        "position": "static",
+        "gap": "normal"
+      }
+    },
+    {
+      "tag": "li",
+      "className": "",
+      "id": "",
+      "text": "关于蒙佳哆商行",
+      "href": null,
+      "src": null,
+      "rect": {
+        "width": 191,
+        "height": 21
+      },
+      "style": {
+        "color": "rgb(174, 178, 191)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "14px",
+        "fontWeight": "400",
+        "lineHeight": "21px",
+        "borderRadius": "0px",
+        "boxShadow": "none",
+        "display": "list-item",
+        "position": "static",
+        "gap": "normal"
+      }
+    }
+  ],
+  "colors": [
+    "rgb(51, 51, 51)",
+    "rgb(255, 255, 255)",
+    "rgb(102, 102, 102)",
+    "rgb(245, 247, 250)",
+    "rgb(102, 102, 102) rgb(102, 102, 102) rgb(228, 231, 237)",
+    "rgb(228, 231, 237)",
+    "rgb(58, 142, 230)",
+    "rgb(168, 171, 178)",
+    "rgb(96, 98, 102)",
+    "rgb(17, 17, 17)",
+    "rgba(0, 0, 0, 0.08)",
+    "rgb(255, 107, 0)",
+    "rgba(255, 107, 0, 0.35)",
+    "rgba(0, 0, 0, 0.5)",
+    "rgb(153, 153, 153)",
+    "rgba(31, 45, 61, 0.11)",
+    "rgb(0, 0, 0)",
+    "rgba(255, 255, 255, 0.45)",
+    "rgb(17, 24, 39)",
+    "rgb(0, 71, 148)",
+    "rgba(0, 0, 0, 0.06)",
+    "rgb(247, 249, 252)",
+    "rgb(102, 102, 102) rgb(102, 102, 102) rgba(0, 0, 0, 0.06)",
+    "rgb(51, 51, 51) rgb(51, 51, 51) rgba(0, 0, 0, 0.06)",
+    "rgba(247, 249, 252, 0.6)",
+    "rgb(51, 51, 51) rgb(51, 51, 51) rgb(228, 231, 237)",
+    "rgba(0, 0, 0, 0.55)",
+    "rgb(64, 158, 255)",
+    "rgb(160, 207, 255)",
+    "rgb(156, 163, 175)",
+    "rgb(236, 245, 255)",
+    "rgb(102, 102, 102) rgb(102, 102, 102) rgba(0, 0, 0, 0)",
+    "rgba(0, 0, 0, 0.6)",
+    "rgba(0, 0, 0, 0.2)",
+    "rgb(245, 108, 108)",
+    "rgb(255, 102, 0)",
+    "rgb(82, 196, 26)",
+    "rgb(174, 178, 191)",
+    "rgb(43, 46, 58)",
+    "rgb(174, 178, 191) rgb(174, 178, 191) rgba(255, 255, 255, 0.05)",
+    "rgba(255, 255, 255, 0.03)",
+    "rgb(107, 114, 128)",
+    "rgb(55, 65, 81)"
+  ],
+  "fonts": [
+    "-apple-system, \"system-ui\", \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif",
+    "Arial"
+  ],
+  "textBlocks": [
+    "欢迎来到蒙佳哆商行平台！我的订单|我的钱包|联系客服|登录首页租号大厅求购列表个人中心账号上架求购客服热门游戏分类三角洲三角洲 分类三角洲 立即进入 哈夫币行情 更新时间 2026-07-04， 以下比例展示均为977带刀皮账号 查看更多 商行比例备注更新时间红猫商行46.00封号赔付押金+租金，墨羽代言2026-07-04长官商行45.00封禁赔付账号80%，白泽代言2026-07-04叮当商行49.00封号全额赔偿，棠舟+老飞宇代言2026-07-04纯欲风商行45.00封号赔付押金+租金，多主播代言2026-07-04奇卡哇商行41.00封号赔付押金+租金，业内龙头2026-07-04浩浩租45.00封号赔付押金+租金，业内龙头2026-07-04古德商行42.00封号赔付押金+租金，业内龙头2026-07-04蒙多商行38.005%手续费到手比例40，法务售后自营封号全赔2026-07-04红猫商行44.00封号赔付押金+租金，墨羽代言2026-06-10叮当商行50.00封号全额赔偿，棠舟+老飞宇代言2026-06-10长官商行50.00封禁赔付账号80%，白泽代言2026-06-10纯欲风商行49.00封号赔付押金+租金，多主播代言2026-06-10奇卡哇商行41.00封号赔付押金+租金，业内龙头2026-06-10浩博商行43.00封号赔付押金+租金，业内龙头2026-06-10古德商行40.00封号赔付押金+租金，业内龙头2026-06-10蒙多商行37.005%手续费到手比例40，法务售后自营封号全赔2026-06-10长官商行47.00封禁赔付账号80%，白泽代言2026-05-26叮当商行47.00封号全额赔偿，棠舟+老飞宇代言2026-05-26纯欲风商行48.00封号赔付押金+租金，多主播代言2026-05-26红猫商行44.00封号赔付押金+租金，墨羽代言2026-05-26奇卡哇商行41.00封号赔付押金+租金，业内龙头2026-05-26浩博商行42.00封号赔付押金+租金，业内龙头2026-05-26古德商行40.00封号赔付押金+租金，业内龙头2026-05-26蒙多商行37.005%手续费到手比例38.9，法务售后自营封号全赔2026-05-26纯欲风商行46.00封号赔付押金+租金，多主播代言2026-05-16红猫商行41.00封号赔付押金+租金，墨羽代言2026-05-16叮当商行46.50封号全额赔偿，棠舟+老飞宇代言2026-05-16长官商行42.00封禁赔付账号80%，白泽代言2026-05-16奇卡哇商行38.00封号赔付押金+租金，业内龙头2026-05-16浩博商行39.00封号赔付押金+租金，业内龙头2026-05-16红猫商行46.00封号赔付押金+租金，墨羽代言2026-07-04长官商行45.00封禁赔付账号80%，白泽代言2026-07-04叮当商行49.00封号全额赔偿，棠舟+老飞宇代言2026-07-04纯欲风商行45.00封号赔付押金+租金，多主播代言2026-07-04奇卡哇商行41.00封号赔付押金+租金，业内龙头2026-07-04浩浩租45.00封号赔付押金+租金，业内龙头2026-07-04古德商行42.00封号赔付押金+租金，业内龙头2026-07-04蒙多商行38.005%手续费到手比例40，法务售后自营封号全赔2026-07-04红猫商行44.00封号赔付押金+租金，墨羽代言2026-06-10叮当商行50.00封号全额赔偿，棠舟+老飞宇代言2026-06-10长官商行50.00封禁赔付账号80%，白泽代言2026-06-10纯欲风商行49.00封号赔付押金+租金，多主播代言2026-06-10奇卡哇商行41.00封号赔付押金+租金，业内龙头2026-06-10浩博商行43.00封号赔付押金+租金，业内龙头2026-06-10古德商行40.00封号赔付押金+租金，业内龙头2026-06-10蒙多商行37.005%手续费到手比例40，法务售后自营封号全赔2026-06-10长官商行47.00封禁赔付账号80%，白泽代言2026-05-26叮当商行47.00封号全额赔偿，棠舟+老飞宇代言2026-05-26纯欲风商行48.00封号赔付押金+租金，多主播代言2026-05-26红猫商行44.00封号赔付押金+租金，墨羽代言2026-05-26奇卡哇商行41.00封号赔付押金+租金，业内龙头2026-05-26浩博商行42.00封号赔付押金+租金，业内龙头2026-05-26古德商行40.00封号赔付押金+租金，业内龙头2026-05-26蒙多商行37.005%手续费到手比例38.9，法务售后自营封号全赔2026-05-26纯欲风商行46.00封号赔付押金+租金，多主播代言2026-05-16红猫商行41.00封号赔付押金+租金，墨羽代言2026-05-16叮当商行46.50封号全额赔偿，棠舟+老飞宇代言2026-05-16长官商行42.00封禁赔付账号80%，白泽代言2026-05-16奇卡哇商行38.00封号赔付押金+租金，业内龙头2026-05-16浩博商行39.00封号赔付押金+租金，业内龙头2026-05-16特价推荐热门类型，快速挑选心仪账号普通+自营8折钻石2099m9格7体7负蚀金玫瑰天际线维什戴尔水墨云图M7棱镜攻势凌霄戍卫Kc17造物纪元蝴蝶刀暗星挽歌露娜-劳拉银翼-未结卷宗露娜-金牌射手鸟兽兽-荒原猎手牧羊人-街头之星蜂医-送葬人无名-夜鹰威龙-壮志凌云威龙-铁面判官红狼-电锯惊魂187****2370比例 42.50押金 2999.0020m/天AWM/213 ¥4938.40 ¥6173.00立即查看 普通区8折黄金2099m9格7体7负维什戴尔信条红狼-电锯惊魂137****7147比例 48.75押金 1999.0020m/天AWM/216 ¥4305.60 ¥5382.00立即查看 普通+自营8.5折铂金1036m9格7体7负天际线暗星红狼-电锯惊魂牧羊人-街头之星158****0520比例 45.88押金 1000.0020m/天AWM/92 ¥2257.60 ¥2656.00立即查看 自营区8.5折钻石1821m9格7体7负蚀金玫瑰天际线水墨云图北极星银翼-未结卷宗鸟兽兽-荒原猎手蜂医-送葬人露娜-金牌射手无名-夜鹰威龙-吴彦祖红狼-电锯惊魂威龙-铁面判官187****6427比例 45.88押金 1999.0015m/天AWM/464 ¥3968.65 ¥4669.00立即查看 普通+自营8.5折钻石953m9格7体7负蚀金玫瑰天际线坠星者红狼-电锯惊魂蜂医-送葬人180****4040比例 45.88押金 1000.0015m/天AWM/47 ¥2076.55 ¥2443.00立即查看 自营区8.5折铂金770m9格7体7负蚀金玫瑰天际线坠星者蜂医-送葬人红狼-电锯惊魂威龙-铁面判官鸟兽兽-荒原猎手银翼-未结卷宗露娜-金牌射手177****5576比例 45.88押金 898.0020m/天AWM/249 ¥1677.90 ¥1974.00立即查看 查看更多 热门游戏精选热门游戏，快速找到心仪账号 全部游戏 🎮英雄联盟2个账号在租👑王者荣耀1个账号在租🔫和平精英1个账号在租💣穿越火线1个账号在租⚔️DNF1个账号在租优选推荐全皮肤、全英雄、高段位优质账号热门推荐最新上架性价比高爆款优选英雄联盟立即租号【艾欧尼亚】全英雄 532皮肤 至臻海克斯全全英雄500+皮肤至臻全大区：艾欧尼亚段位：最强王者¥8月租 1234次爆款优选王者荣耀立即租号【V10贵族】300+皮肤 全荣耀典藏 星传说V10贵族300+皮肤全典藏大区：微信区段位：荣耀王者¥5月租 892次优选穿越火线立即租号【王者之魄】6烈龙 6盘龙 王者套装枪王之王6烈6盘V8大区：广东一区段位：枪王之王¥3月租 789次 查看更多优质账号 安全可靠实名认证 + 押金担保，让您租得放心价格透明明码标价，低至1元起租，性价比高极速上号自动发货系统，秒级响应，无需等待24h客服专业客服团队全天候在线，随时解答准备好开始您的游戏之旅了吗？ 立即租号 专业、安全、低价的游戏账号租赁平台。 平台指南首页租号大厅常见问题商务合作关于蒙佳哆商行联系我们客服热线-客服微信- © 2026 蒙佳哆商行 版权所有 |渝ICP备2026002277号-2用户协议|隐私政策",
+    "欢迎来到蒙佳哆商行平台！我的订单|我的钱包|联系客服|登录首页租号大厅求购列表个人中心账号上架求购客服热门游戏分类三角洲三角洲 分类三角洲 立即进入 哈夫币行情 更新时间 2026-07-04， 以下比例展示均为977带刀皮账号 查看更多 商行比例备注更新时间红猫商行46.00封号赔付押金+租金，墨羽代言2026-07-04长官商行45.00封禁赔付账号80%，白泽代言2026-07-04叮当商行49.00封号全额赔偿，棠舟+老飞宇代言2026-07-04纯欲风商行45.00封号赔付押金+租金，多主播代言2026-07-04奇卡哇商行41.00封号赔付押金+租金，业内龙头2026-07-04浩浩租45.00封号赔付押金+租金，业内龙头2026-07-04古德商行42.00封号赔付押金+租金，业内龙头2026-07-04蒙多商行38.005%手续费到手比例40，法务售后自营封号全赔2026-07-04红猫商行44.00封号赔付押金+租金，墨羽代言2026-06-10叮当商行50.00封号全额赔偿，棠舟+老飞宇代言2026-06-10长官商行50.00封禁赔付账号80%，白泽代言2026-06-10纯欲风商行49.00封号赔付押金+租金，多主播代言2026-06-10奇卡哇商行41.00封号赔付押金+租金，业内龙头2026-06-10浩博商行43.00封号赔付押金+租金，业内龙头2026-06-10古德商行40.00封号赔付押金+租金，业内龙头2026-06-10蒙多商行37.005%手续费到手比例40，法务售后自营封号全赔2026-06-10长官商行47.00封禁赔付账号80%，白泽代言2026-05-26叮当商行47.00封号全额赔偿，棠舟+老飞宇代言2026-05-26纯欲风商行48.00封号赔付押金+租金，多主播代言2026-05-26红猫商行44.00封号赔付押金+租金，墨羽代言2026-05-26奇卡哇商行41.00封号赔付押金+租金，业内龙头2026-05-26浩博商行42.00封号赔付押金+租金，业内龙头2026-05-26古德商行40.00封号赔付押金+租金，业内龙头2026-05-26蒙多商行37.005%手续费到手比例38.9，法务售后自营封号全赔2026-05-26纯欲风商行46.00封号赔付押金+租金，多主播代言2026-05-16红猫商行41.00封号赔付押金+租金，墨羽代言2026-05-16叮当商行46.50封号全额赔偿，棠舟+老飞宇代言2026-05-16长官商行42.00封禁赔付账号80%，白泽代言2026-05-16奇卡哇商行38.00封号赔付押金+租金，业内龙头2026-05-16浩博商行39.00封号赔付押金+租金，业内龙头2026-05-16红猫商行46.00封号赔付押金+租金，墨羽代言2026-07-04长官商行45.00封禁赔付账号80%，白泽代言2026-07-04叮当商行49.00封号全额赔偿，棠舟+老飞宇代言2026-07-04纯欲风商行45.00封号赔付押金+租金，多主播代言2026-07-04奇卡哇商行41.00封号赔付押金+租金，业内龙头2026-07-04浩浩租45.00封号赔付押金+租金，业内龙头2026-07-04古德商行42.00封号赔付押金+租金，业内龙头2026-07-04蒙多商行38.005%手续费到手比例40，法务售后自营封号全赔2026-07-04红猫商行44.00封号赔付押金+租金，墨羽代言2026-06-10叮当商行50.00封号全额赔偿，棠舟+老飞宇代言2026-06-10长官商行50.00封禁赔付账号80%，白泽代言2026-06-10纯欲风商行49.00封号赔付押金+租金，多主播代言2026-06-10奇卡哇商行41.00封号赔付押金+租金，业内龙头2026-06-10浩博商行43.00封号赔付押金+租金，业内龙头2026-06-10古德商行40.00封号赔付押金+租金，业内龙头2026-06-10蒙多商行37.005%手续费到手比例40，法务售后自营封号全赔2026-06-10长官商行47.00封禁赔付账号80%，白泽代言2026-05-26叮当商行47.00封号全额赔偿，棠舟+老飞宇代言2026-05-26纯欲风商行48.00封号赔付押金+租金，多主播代言2026-05-26红猫商行44.00封号赔付押金+租金，墨羽代言2026-05-26奇卡哇商行41.00封号赔付押金+租金，业内龙头2026-05-26浩博商行42.00封号赔付押金+租金，业内龙头2026-05-26古德商行40.00封号赔付押金+租金，业内龙头2026-05-26蒙多商行37.005%手续费到手比例38.9，法务售后自营封号全赔2026-05-26纯欲风商行46.00封号赔付押金+租金，多主播代言2026-05-16红猫商行41.00封号赔付押金+租金，墨羽代言2026-05-16叮当商行46.50封号全额赔偿，棠舟+老飞宇代言2026-05-16长官商行42.00封禁赔付账号80%，白泽代言2026-05-16奇卡哇商行38.00封号赔付押金+租金，业内龙头2026-05-16浩博商行39.00封号赔付押金+租金，业内龙头2026-05-16特价推荐热门类型，快速挑选心仪账号普通+自营8折钻石2099m9格7体7负蚀金玫瑰天际线维什戴尔水墨云图M7棱镜攻势凌霄戍卫Kc17造物纪元蝴蝶刀暗星挽歌露娜-劳拉银翼-未结卷宗露娜-金牌射手鸟兽兽-荒原猎手牧羊人-街头之星蜂医-送葬人无名-夜鹰威龙-壮志凌云威龙-铁面判官红狼-电锯惊魂187****2370比例 42.50押金 2999.0020m/天AWM/213 ¥4938.40 ¥6173.00立即查看 普通区8折黄金2099m9格7体7负维什戴尔信条红狼-电锯惊魂137****7147比例 48.75押金 1999.0020m/天AWM/216 ¥4305.60 ¥5382.00立即查看 普通+自营8.5折铂金1036m9格7体7负天际线暗星红狼-电锯惊魂牧羊人-街头之星158****0520比例 45.88押金 1000.0020m/天AWM/92 ¥2257.60 ¥2656.00立即查看 自营区8.5折钻石1821m9格7体7负蚀金玫瑰天际线水墨云图北极星银翼-未结卷宗鸟兽兽-荒原猎手蜂医-送葬人露娜-金牌射手无名-夜鹰威龙-吴彦祖红狼-电锯惊魂威龙-铁面判官187****6427比例 45.88押金 1999.0015m/天AWM/464 ¥3968.65 ¥4669.00立即查看 普通+自营8.5折钻石953m9格7体7负蚀金玫瑰天际线坠星者红狼-电锯惊魂蜂医-送葬人180****4040比例 45.88押金 1000.0015m/天AWM/47 ¥2076.55 ¥2443.00立即查看 自营区8.5折铂金770m9格7体7负蚀金玫瑰天际线坠星者蜂医-送葬人红狼-电锯惊魂威龙-铁面判官鸟兽兽-荒原猎手银翼-未结卷宗露娜-金牌射手177****5576比例 45.88押金 898.0020m/天AWM/249 ¥1677.90 ¥1974.00立即查看 查看更多 热门游戏精选热门游戏，快速找到心仪账号 全部游戏 🎮英雄联盟2个账号在租👑王者荣耀1个账号在租🔫和平精英1个账号在租💣穿越火线1个账号在租⚔️DNF1个账号在租优选推荐全皮肤、全英雄、高段位优质账号热门推荐最新上架性价比高爆款优选英雄联盟立即租号【艾欧尼亚】全英雄 532皮肤 至臻海克斯全全英雄500+皮肤至臻全大区：艾欧尼亚段位：最强王者¥8月租 1234次爆款优选王者荣耀立即租号【V10贵族】300+皮肤 全荣耀典藏 星传说V10贵族300+皮肤全典藏大区：微信区段位：荣耀王者¥5月租 892次优选穿越火线立即租号【王者之魄】6烈龙 6盘龙 王者套装枪王之王6烈6盘V8大区：广东一区段位：枪王之王¥3月租 789次 查看更多优质账号 安全可靠实名认证 + 押金担保，让您租得放心价格透明明码标价，低至1元起租，性价比高极速上号自动发货系统，秒级响应，无需等待24h客服专业客服团队全天候在线，随时解答准备好开始您的游戏之旅了吗？ 立即租号 专业、安全、低价的游戏账号租赁平台。 平台指南首页租号大厅常见问题商务合作关于蒙佳哆商行联系我们客服热线-客服微信- © 2026 蒙佳哆商行 版权所有 |渝ICP备2026002277号-2用户协议|隐私政策",
+    "欢迎来到蒙佳哆商行平台！我的订单|我的钱包|联系客服|登录首页租号大厅求购列表个人中心账号上架求购客服",
+    "欢迎来到蒙佳哆商行平台！我的订单|我的钱包|联系客服|登录",
+    "欢迎来到蒙佳哆商行平台！我的订单|我的钱包|联系客服|登录",
+    "欢迎来到蒙佳哆商行平台！我的订单|我的钱包|联系客服|登录",
+    "欢迎来到蒙佳哆商行平台！",
+    "欢迎来到蒙佳哆商行平台！",
+    "我的订单|我的钱包|联系客服|登录",
+    "我的订单",
+    "我的钱包",
+    "联系客服",
+    "登录",
+    "登录",
+    "首页租号大厅求购列表个人中心账号上架求购客服",
+    "首页租号大厅求购列表个人中心账号上架求购客服",
+    "首页租号大厅求购列表个人中心账号上架求购客服",
+    "首页租号大厅求购列表个人中心",
+    "首页",
+    "首页",
+    "租号大厅",
+    "租号大厅",
+    "求购列表",
+    "求购列表",
+    "个人中心",
+    "个人中心",
+    "账号上架求购客服",
+    "账号上架求购客服",
+    "账号上架",
+    "求购",
+    "客服",
+    "客服",
+    "热门游戏分类三角洲三角洲 分类三角洲 立即进入 哈夫币行情 更新时间 2026-07-04， 以下比例展示均为977带刀皮账号 查看更多 商行比例备注更新时间红猫商行46.00封号赔付押金+租金，墨羽代言2026-07-04长官商行45.00封禁赔付账号80%，白泽代言2026-07-04叮当商行49.00封号全额赔偿，棠舟+老飞宇代言2026-07-04纯欲风商行45.00封号赔付押金+租金，多主播代言2026-07-04奇卡哇商行41.00封号赔付押金+租金，业内龙头2026-07-04浩浩租45.00封号赔付押金+租金，业内龙头2026-07-04古德商行42.00封号赔付押金+租金，业内龙头2026-07-04蒙多商行38.005%手续费到手比例40，法务售后自营封号全赔2026-07-04红猫商行44.00封号赔付押金+租金，墨羽代言2026-06-10叮当商行50.00封号全额赔偿，棠舟+老飞宇代言2026-06-10长官商行50.00封禁赔付账号80%，白泽代言2026-06-10纯欲风商行49.00封号赔付押金+租金，多主播代言2026-06-10奇卡哇商行41.00封号赔付押金+租金，业内龙头2026-06-10浩博商行43.00封号赔付押金+租金，业内龙头2026-06-10古德商行40.00封号赔付押金+租金，业内龙头2026-06-10蒙多商行37.005%手续费到手比例40，法务售后自营封号全赔2026-06-10长官商行47.00封禁赔付账号80%，白泽代言2026-05-26叮当商行47.00封号全额赔偿，棠舟+老飞宇代言2026-05-26纯欲风商行48.00封号赔付押金+租金，多主播代言2026-05-26红猫商行44.00封号赔付押金+租金，墨羽代言2026-05-26奇卡哇商行41.00封号赔付押金+租金，业内龙头2026-05-26浩博商行42.00封号赔付押金+租金，业内龙头2026-05-26古德商行40.00封号赔付押金+租金，业内龙头2026-05-26蒙多商行37.005%手续费到手比例38.9，法务售后自营封号全赔2026-05-26纯欲风商行46.00封号赔付押金+租金，多主播代言2026-05-16红猫商行41.00封号赔付押金+租金，墨羽代言2026-05-16叮当商行46.50封号全额赔偿，棠舟+老飞宇代言2026-05-16长官商行42.00封禁赔付账号80%，白泽代言2026-05-16奇卡哇商行38.00封号赔付押金+租金，业内龙头2026-05-16浩博商行39.00封号赔付押金+租金，业内龙头2026-05-16红猫商行46.00封号赔付押金+租金，墨羽代言2026-07-04长官商行45.00封禁赔付账号80%，白泽代言2026-07-04叮当商行49.00封号全额赔偿，棠舟+老飞宇代言2026-07-04纯欲风商行45.00封号赔付押金+租金，多主播代言2026-07-04奇卡哇商行41.00封号赔付押金+租金，业内龙头2026-07-04浩浩租45.00封号赔付押金+租金，业内龙头2026-07-04古德商行42.00封号赔付押金+租金，业内龙头2026-07-04蒙多商行38.005%手续费到手比例40，法务售后自营封号全赔2026-07-04红猫商行44.00封号赔付押金+租金，墨羽代言2026-06-10叮当商行50.00封号全额赔偿，棠舟+老飞宇代言2026-06-10长官商行50.00封禁赔付账号80%，白泽代言2026-06-10纯欲风商行49.00封号赔付押金+租金，多主播代言2026-06-10奇卡哇商行41.00封号赔付押金+租金，业内龙头2026-06-10浩博商行43.00封号赔付押金+租金，业内龙头2026-06-10古德商行40.00封号赔付押金+租金，业内龙头2026-06-10蒙多商行37.005%手续费到手比例40，法务售后自营封号全赔2026-06-10长官商行47.00封禁赔付账号80%，白泽代言2026-05-26叮当商行47.00封号全额赔偿，棠舟+老飞宇代言2026-05-26纯欲风商行48.00封号赔付押金+租金，多主播代言2026-05-26红猫商行44.00封号赔付押金+租金，墨羽代言2026-05-26奇卡哇商行41.00封号赔付押金+租金，业内龙头2026-05-26浩博商行42.00封号赔付押金+租金，业内龙头2026-05-26古德商行40.00封号赔付押金+租金，业内龙头2026-05-26蒙多商行37.005%手续费到手比例38.9，法务售后自营封号全赔2026-05-26纯欲风商行46.00封号赔付押金+租金，多主播代言2026-05-16红猫商行41.00封号赔付押金+租金，墨羽代言2026-05-16叮当商行46.50封号全额赔偿，棠舟+老飞宇代言2026-05-16长官商行42.00封禁赔付账号80%，白泽代言2026-05-16奇卡哇商行38.00封号赔付押金+租金，业内龙头2026-05-16浩博商行39.00封号赔付押金+租金，业内龙头2026-05-16特价推荐热门类型，快速挑选心仪账号普通+自营8折钻石2099m9格7体7负蚀金玫瑰天际线维什戴尔水墨云图M7棱镜攻势凌霄戍卫Kc17造物纪元蝴蝶刀暗星挽歌露娜-劳拉银翼-未结卷宗露娜-金牌射手鸟兽兽-荒原猎手牧羊人-街头之星蜂医-送葬人无名-夜鹰威龙-壮志凌云威龙-铁面判官红狼-电锯惊魂187****2370比例 42.50押金 2999.0020m/天AWM/213 ¥4938.40 ¥6173.00立即查看 普通区8折黄金2099m9格7体7负维什戴尔信条红狼-电锯惊魂137****7147比例 48.75押金 1999.0020m/天AWM/216 ¥4305.60 ¥5382.00立即查看 普通+自营8.5折铂金1036m9格7体7负天际线暗星红狼-电锯惊魂牧羊人-街头之星158****0520比例 45.88押金 1000.0020m/天AWM/92 ¥2257.60 ¥2656.00立即查看 自营区8.5折钻石1821m9格7体7负蚀金玫瑰天际线水墨云图北极星银翼-未结卷宗鸟兽兽-荒原猎手蜂医-送葬人露娜-金牌射手无名-夜鹰威龙-吴彦祖红狼-电锯惊魂威龙-铁面判官187****6427比例 45.88押金 1999.0015m/天AWM/464 ¥3968.65 ¥4669.00立即查看 普通+自营8.5折钻石953m9格7体7负蚀金玫瑰天际线坠星者红狼-电锯惊魂蜂医-送葬人180****4040比例 45.88押金 1000.0015m/天AWM/47 ¥2076.55 ¥2443.00立即查看 自营区8.5折铂金770m9格7体7负蚀金玫瑰天际线坠星者蜂医-送葬人红狼-电锯惊魂威龙-铁面判官鸟兽兽-荒原猎手银翼-未结卷宗露娜-金牌射手177****5576比例 45.88押金 898.0020m/天AWM/249 ¥1677.90 ¥1974.00立即查看 查看更多 热门游戏精选热门游戏，快速找到心仪账号 全部游戏 🎮英雄联盟2个账号在租👑王者荣耀1个账号在租🔫和平精英1个账号在租💣穿越火线1个账号在租⚔️DNF1个账号在租优选推荐全皮肤、全英雄、高段位优质账号热门推荐最新上架性价比高爆款优选英雄联盟立即租号【艾欧尼亚】全英雄 532皮肤 至臻海克斯全全英雄500+皮肤至臻全大区：艾欧尼亚段位：最强王者¥8月租 1234次爆款优选王者荣耀立即租号【V10贵族】300+皮肤 全荣耀典藏 星传说V10贵族300+皮肤全典藏大区：微信区段位：荣耀王者¥5月租 892次优选穿越火线立即租号【王者之魄】6烈龙 6盘龙 王者套装枪王之王6烈6盘V8大区：广东一区段位：枪王之王¥3月租 789次 查看更多优质账号 安全可靠实名认证 + 押金担保，让您租得放心价格透明明码标价，低至1元起租，性价比高极速上号自动发货系统，秒级响应，无需等待24h客服专业客服团队全天候在线，随时解答准备好开始您的游戏之旅了吗？ 立即租号",
+    "热门游戏分类三角洲三角洲 分类三角洲 立即进入 哈夫币行情 更新时间 2026-07-04， 以下比例展示均为977带刀皮账号 查看更多 商行比例备注更新时间红猫商行46.00封号赔付押金+租金，墨羽代言2026-07-04长官商行45.00封禁赔付账号80%，白泽代言2026-07-04叮当商行49.00封号全额赔偿，棠舟+老飞宇代言2026-07-04纯欲风商行45.00封号赔付押金+租金，多主播代言2026-07-04奇卡哇商行41.00封号赔付押金+租金，业内龙头2026-07-04浩浩租45.00封号赔付押金+租金，业内龙头2026-07-04古德商行42.00封号赔付押金+租金，业内龙头2026-07-04蒙多商行38.005%手续费到手比例40，法务售后自营封号全赔2026-07-04红猫商行44.00封号赔付押金+租金，墨羽代言2026-06-10叮当商行50.00封号全额赔偿，棠舟+老飞宇代言2026-06-10长官商行50.00封禁赔付账号80%，白泽代言2026-06-10纯欲风商行49.00封号赔付押金+租金，多主播代言2026-06-10奇卡哇商行41.00封号赔付押金+租金，业内龙头2026-06-10浩博商行43.00封号赔付押金+租金，业内龙头2026-06-10古德商行40.00封号赔付押金+租金，业内龙头2026-06-10蒙多商行37.005%手续费到手比例40，法务售后自营封号全赔2026-06-10长官商行47.00封禁赔付账号80%，白泽代言2026-05-26叮当商行47.00封号全额赔偿，棠舟+老飞宇代言2026-05-26纯欲风商行48.00封号赔付押金+租金，多主播代言2026-05-26红猫商行44.00封号赔付押金+租金，墨羽代言2026-05-26奇卡哇商行41.00封号赔付押金+租金，业内龙头2026-05-26浩博商行42.00封号赔付押金+租金，业内龙头2026-05-26古德商行40.00封号赔付押金+租金，业内龙头2026-05-26蒙多商行37.005%手续费到手比例38.9，法务售后自营封号全赔2026-05-26纯欲风商行46.00封号赔付押金+租金，多主播代言2026-05-16红猫商行41.00封号赔付押金+租金，墨羽代言2026-05-16叮当商行46.50封号全额赔偿，棠舟+老飞宇代言2026-05-16长官商行42.00封禁赔付账号80%，白泽代言2026-05-16奇卡哇商行38.00封号赔付押金+租金，业内龙头2026-05-16浩博商行39.00封号赔付押金+租金，业内龙头2026-05-16红猫商行46.00封号赔付押金+租金，墨羽代言2026-07-04长官商行45.00封禁赔付账号80%，白泽代言2026-07-04叮当商行49.00封号全额赔偿，棠舟+老飞宇代言2026-07-04纯欲风商行45.00封号赔付押金+租金，多主播代言2026-07-04奇卡哇商行41.00封号赔付押金+租金，业内龙头2026-07-04浩浩租45.00封号赔付押金+租金，业内龙头2026-07-04古德商行42.00封号赔付押金+租金，业内龙头2026-07-04蒙多商行38.005%手续费到手比例40，法务售后自营封号全赔2026-07-04红猫商行44.00封号赔付押金+租金，墨羽代言2026-06-10叮当商行50.00封号全额赔偿，棠舟+老飞宇代言2026-06-10长官商行50.00封禁赔付账号80%，白泽代言2026-06-10纯欲风商行49.00封号赔付押金+租金，多主播代言2026-06-10奇卡哇商行41.00封号赔付押金+租金，业内龙头2026-06-10浩博商行43.00封号赔付押金+租金，业内龙头2026-06-10古德商行40.00封号赔付押金+租金，业内龙头2026-06-10蒙多商行37.005%手续费到手比例40，法务售后自营封号全赔2026-06-10长官商行47.00封禁赔付账号80%，白泽代言2026-05-26叮当商行47.00封号全额赔偿，棠舟+老飞宇代言2026-05-26纯欲风商行48.00封号赔付押金+租金，多主播代言2026-05-26红猫商行44.00封号赔付押金+租金，墨羽代言2026-05-26奇卡哇商行41.00封号赔付押金+租金，业内龙头2026-05-26浩博商行42.00封号赔付押金+租金，业内龙头2026-05-26古德商行40.00封号赔付押金+租金，业内龙头2026-05-26蒙多商行37.005%手续费到手比例38.9，法务售后自营封号全赔2026-05-26纯欲风商行46.00封号赔付押金+租金，多主播代言2026-05-16红猫商行41.00封号赔付押金+租金，墨羽代言2026-05-16叮当商行46.50封号全额赔偿，棠舟+老飞宇代言2026-05-16长官商行42.00封禁赔付账号80%，白泽代言2026-05-16奇卡哇商行38.00封号赔付押金+租金，业内龙头2026-05-16浩博商行39.00封号赔付押金+租金，业内龙头2026-05-16特价推荐热门类型，快速挑选心仪账号普通+自营8折钻石2099m9格7体7负蚀金玫瑰天际线维什戴尔水墨云图M7棱镜攻势凌霄戍卫Kc17造物纪元蝴蝶刀暗星挽歌露娜-劳拉银翼-未结卷宗露娜-金牌射手鸟兽兽-荒原猎手牧羊人-街头之星蜂医-送葬人无名-夜鹰威龙-壮志凌云威龙-铁面判官红狼-电锯惊魂187****2370比例 42.50押金 2999.0020m/天AWM/213 ¥4938.40 ¥6173.00立即查看 普通区8折黄金2099m9格7体7负维什戴尔信条红狼-电锯惊魂137****7147比例 48.75押金 1999.0020m/天AWM/216 ¥4305.60 ¥5382.00立即查看 普通+自营8.5折铂金1036m9格7体7负天际线暗星红狼-电锯惊魂牧羊人-街头之星158****0520比例 45.88押金 1000.0020m/天AWM/92 ¥2257.60 ¥2656.00立即查看 自营区8.5折钻石1821m9格7体7负蚀金玫瑰天际线水墨云图北极星银翼-未结卷宗鸟兽兽-荒原猎手蜂医-送葬人露娜-金牌射手无名-夜鹰威龙-吴彦祖红狼-电锯惊魂威龙-铁面判官187****6427比例 45.88押金 1999.0015m/天AWM/464 ¥3968.65 ¥4669.00立即查看 普通+自营8.5折钻石953m9格7体7负蚀金玫瑰天际线坠星者红狼-电锯惊魂蜂医-送葬人180****4040比例 45.88押金 1000.0015m/天AWM/47 ¥2076.55 ¥2443.00立即查看 自营区8.5折铂金770m9格7体7负蚀金玫瑰天际线坠星者蜂医-送葬人红狼-电锯惊魂威龙-铁面判官鸟兽兽-荒原猎手银翼-未结卷宗露娜-金牌射手177****5576比例 45.88押金 898.0020m/天AWM/249 ¥1677.90 ¥1974.00立即查看 查看更多 热门游戏精选热门游戏，快速找到心仪账号 全部游戏 🎮英雄联盟2个账号在租👑王者荣耀1个账号在租🔫和平精英1个账号在租💣穿越火线1个账号在租⚔️DNF1个账号在租优选推荐全皮肤、全英雄、高段位优质账号热门推荐最新上架性价比高爆款优选英雄联盟立即租号【艾欧尼亚】全英雄 532皮肤 至臻海克斯全全英雄500+皮肤至臻全大区：艾欧尼亚段位：最强王者¥8月租 1234次爆款优选王者荣耀立即租号【V10贵族】300+皮肤 全荣耀典藏 星传说V10贵族300+皮肤全典藏大区：微信区段位：荣耀王者¥5月租 892次优选穿越火线立即租号【王者之魄】6烈龙 6盘龙 王者套装枪王之王6烈6盘V8大区：广东一区段位：枪王之王¥3月租 789次 查看更多优质账号 安全可靠实名认证 + 押金担保，让您租得放心价格透明明码标价，低至1元起租，性价比高极速上号自动发货系统，秒级响应，无需等待24h客服专业客服团队全天候在线，随时解答准备好开始您的游戏之旅了吗？ 立即租号",
+    "热门游戏分类三角洲三角洲 分类三角洲 立即进入",
+    "热门游戏分类三角洲三角洲 分类三角洲 立即进入",
+    "热门游戏分类三角洲三角洲 分类三角洲 立即进入",
+    "热门游戏分类三角洲三角洲 分类三角洲 立即进入",
+    "热门游戏分类",
+    "热门游戏分类",
+    "三角洲三角洲 分类三角洲 立即进入",
+    "三角洲三角洲 分类三角洲 立即进入",
+    "三角洲",
+    "三角洲 分类三角洲 立即进入",
+    "三角洲 分类",
+    "三角洲",
+    "三角洲",
+    "立即进入",
+    "哈夫币行情 更新时间 2026-07-04， 以下比例展示均为977带刀皮账号 查看更多 商行比例备注更新时间红猫商行46.00封号赔付押金+租金，墨羽代言2026-07-04长官商行45.00封禁赔付账号80%，白泽代言2026-07-04叮当商行49.00封号全额赔偿，棠舟+老飞宇代言2026-07-04纯欲风商行45.00封号赔付押金+租金，多主播代言2026-07-04奇卡哇商行41.00封号赔付押金+租金，业内龙头2026-07-04浩浩租45.00封号赔付押金+租金，业内龙头2026-07-04古德商行42.00封号赔付押金+租金，业内龙头2026-07-04蒙多商行38.005%手续费到手比例40，法务售后自营封号全赔2026-07-04红猫商行44.00封号赔付押金+租金，墨羽代言2026-06-10叮当商行50.00封号全额赔偿，棠舟+老飞宇代言2026-06-10长官商行50.00封禁赔付账号80%，白泽代言2026-06-10纯欲风商行49.00封号赔付押金+租金，多主播代言2026-06-10奇卡哇商行41.00封号赔付押金+租金，业内龙头2026-06-10浩博商行43.00封号赔付押金+租金，业内龙头2026-06-10古德商行40.00封号赔付押金+租金，业内龙头2026-06-10蒙多商行37.005%手续费到手比例40，法务售后自营封号全赔2026-06-10长官商行47.00封禁赔付账号80%，白泽代言2026-05-26叮当商行47.00封号全额赔偿，棠舟+老飞宇代言2026-05-26纯欲风商行48.00封号赔付押金+租金，多主播代言2026-05-26红猫商行44.00封号赔付押金+租金，墨羽代言2026-05-26奇卡哇商行41.00封号赔付押金+租金，业内龙头2026-05-26浩博商行42.00封号赔付押金+租金，业内龙头2026-05-26古德商行40.00封号赔付押金+租金，业内龙头2026-05-26蒙多商行37.005%手续费到手比例38.9，法务售后自营封号全赔2026-05-26纯欲风商行46.00封号赔付押金+租金，多主播代言2026-05-16红猫商行41.00封号赔付押金+租金，墨羽代言2026-05-16叮当商行46.50封号全额赔偿，棠舟+老飞宇代言2026-05-16长官商行42.00封禁赔付账号80%，白泽代言2026-05-16奇卡哇商行38.00封号赔付押金+租金，业内龙头2026-05-16浩博商行39.00封号赔付押金+租金，业内龙头2026-05-16红猫商行46.00封号赔付押金+租金，墨羽代言2026-07-04长官商行45.00封禁赔付账号80%，白泽代言2026-07-04叮当商行49.00封号全额赔偿，棠舟+老飞宇代言2026-07-04纯欲风商行45.00封号赔付押金+租金，多主播代言2026-07-04奇卡哇商行41.00封号赔付押金+租金，业内龙头2026-07-04浩浩租45.00封号赔付押金+租金，业内龙头2026-07-04古德商行42.00封号赔付押金+租金，业内龙头2026-07-04蒙多商行38.005%手续费到手比例40，法务售后自营封号全赔2026-07-04红猫商行44.00封号赔付押金+租金，墨羽代言2026-06-10叮当商行50.00封号全额赔偿，棠舟+老飞宇代言2026-06-10长官商行50.00封禁赔付账号80%，白泽代言2026-06-10纯欲风商行49.00封号赔付押金+租金，多主播代言2026-06-10奇卡哇商行41.00封号赔付押金+租金，业内龙头2026-06-10浩博商行43.00封号赔付押金+租金，业内龙头2026-06-10古德商行40.00封号赔付押金+租金，业内龙头2026-06-10蒙多商行37.005%手续费到手比例40，法务售后自营封号全赔2026-06-10长官商行47.00封禁赔付账号80%，白泽代言2026-05-26叮当商行47.00封号全额赔偿，棠舟+老飞宇代言2026-05-26纯欲风商行48.00封号赔付押金+租金，多主播代言2026-05-26红猫商行44.00封号赔付押金+租金，墨羽代言2026-05-26奇卡哇商行41.00封号赔付押金+租金，业内龙头2026-05-26浩博商行42.00封号赔付押金+租金，业内龙头2026-05-26古德商行40.00封号赔付押金+租金，业内龙头2026-05-26蒙多商行37.005%手续费到手比例38.9，法务售后自营封号全赔2026-05-26纯欲风商行46.00封号赔付押金+租金，多主播代言2026-05-16红猫商行41.00封号赔付押金+租金，墨羽代言2026-05-16叮当商行46.50封号全额赔偿，棠舟+老飞宇代言2026-05-16长官商行42.00封禁赔付账号80%，白泽代言2026-05-16奇卡哇商行38.00封号赔付押金+租金，业内龙头2026-05-16浩博商行39.00封号赔付押金+租金，业内龙头2026-05-16",
+    "哈夫币行情 更新时间 2026-07-04， 以下比例展示均为977带刀皮账号 查看更多 商行比例备注更新时间红猫商行46.00封号赔付押金+租金，墨羽代言2026-07-04长官商行45.00封禁赔付账号80%，白泽代言2026-07-04叮当商行49.00封号全额赔偿，棠舟+老飞宇代言2026-07-04纯欲风商行45.00封号赔付押金+租金，多主播代言2026-07-04奇卡哇商行41.00封号赔付押金+租金，业内龙头2026-07-04浩浩租45.00封号赔付押金+租金，业内龙头2026-07-04古德商行42.00封号赔付押金+租金，业内龙头2026-07-04蒙多商行38.005%手续费到手比例40，法务售后自营封号全赔2026-07-04红猫商行44.00封号赔付押金+租金，墨羽代言2026-06-10叮当商行50.00封号全额赔偿，棠舟+老飞宇代言2026-06-10长官商行50.00封禁赔付账号80%，白泽代言2026-06-10纯欲风商行49.00封号赔付押金+租金，多主播代言2026-06-10奇卡哇商行41.00封号赔付押金+租金，业内龙头2026-06-10浩博商行43.00封号赔付押金+租金，业内龙头2026-06-10古德商行40.00封号赔付押金+租金，业内龙头2026-06-10蒙多商行37.005%手续费到手比例40，法务售后自营封号全赔2026-06-10长官商行47.00封禁赔付账号80%，白泽代言2026-05-26叮当商行47.00封号全额赔偿，棠舟+老飞宇代言2026-05-26纯欲风商行48.00封号赔付押金+租金，多主播代言2026-05-26红猫商行44.00封号赔付押金+租金，墨羽代言2026-05-26奇卡哇商行41.00封号赔付押金+租金，业内龙头2026-05-26浩博商行42.00封号赔付押金+租金，业内龙头2026-05-26古德商行40.00封号赔付押金+租金，业内龙头2026-05-26蒙多商行37.005%手续费到手比例38.9，法务售后自营封号全赔2026-05-26纯欲风商行46.00封号赔付押金+租金，多主播代言2026-05-16红猫商行41.00封号赔付押金+租金，墨羽代言2026-05-16叮当商行46.50封号全额赔偿，棠舟+老飞宇代言2026-05-16长官商行42.00封禁赔付账号80%，白泽代言2026-05-16奇卡哇商行38.00封号赔付押金+租金，业内龙头2026-05-16浩博商行39.00封号赔付押金+租金，业内龙头2026-05-16红猫商行46.00封号赔付押金+租金，墨羽代言2026-07-04长官商行45.00封禁赔付账号80%，白泽代言2026-07-04叮当商行49.00封号全额赔偿，棠舟+老飞宇代言2026-07-04纯欲风商行45.00封号赔付押金+租金，多主播代言2026-07-04奇卡哇商行41.00封号赔付押金+租金，业内龙头2026-07-04浩浩租45.00封号赔付押金+租金，业内龙头2026-07-04古德商行42.00封号赔付押金+租金，业内龙头2026-07-04蒙多商行38.005%手续费到手比例40，法务售后自营封号全赔2026-07-04红猫商行44.00封号赔付押金+租金，墨羽代言2026-06-10叮当商行50.00封号全额赔偿，棠舟+老飞宇代言2026-06-10长官商行50.00封禁赔付账号80%，白泽代言2026-06-10纯欲风商行49.00封号赔付押金+租金，多主播代言2026-06-10奇卡哇商行41.00封号赔付押金+租金，业内龙头2026-06-10浩博商行43.00封号赔付押金+租金，业内龙头2026-06-10古德商行40.00封号赔付押金+租金，业内龙头2026-06-10蒙多商行37.005%手续费到手比例40，法务售后自营封号全赔2026-06-10长官商行47.00封禁赔付账号80%，白泽代言2026-05-26叮当商行47.00封号全额赔偿，棠舟+老飞宇代言2026-05-26纯欲风商行48.00封号赔付押金+租金，多主播代言2026-05-26红猫商行44.00封号赔付押金+租金，墨羽代言2026-05-26奇卡哇商行41.00封号赔付押金+租金，业内龙头2026-05-26浩博商行42.00封号赔付押金+租金，业内龙头2026-05-26古德商行40.00封号赔付押金+租金，业内龙头2026-05-26蒙多商行37.005%手续费到手比例38.9，法务售后自营封号全赔2026-05-26纯欲风商行46.00封号赔付押金+租金，多主播代言2026-05-16红猫商行41.00封号赔付押金+租金，墨羽代言2026-05-16叮当商行46.50封号全额赔偿，棠舟+老飞宇代言2026-05-16长官商行42.00封禁赔付账号80%，白泽代言2026-05-16奇卡哇商行38.00封号赔付押金+租金，业内龙头2026-05-16浩博商行39.00封号赔付押金+租金，业内龙头2026-05-16",
+    "哈夫币行情 更新时间 2026-07-04， 以下比例展示均为977带刀皮账号 查看更多 商行比例备注更新时间红猫商行46.00封号赔付押金+租金，墨羽代言2026-07-04长官商行45.00封禁赔付账号80%，白泽代言2026-07-04叮当商行49.00封号全额赔偿，棠舟+老飞宇代言2026-07-04纯欲风商行45.00封号赔付押金+租金，多主播代言2026-07-04奇卡哇商行41.00封号赔付押金+租金，业内龙头2026-07-04浩浩租45.00封号赔付押金+租金，业内龙头2026-07-04古德商行42.00封号赔付押金+租金，业内龙头2026-07-04蒙多商行38.005%手续费到手比例40，法务售后自营封号全赔2026-07-04红猫商行44.00封号赔付押金+租金，墨羽代言2026-06-10叮当商行50.00封号全额赔偿，棠舟+老飞宇代言2026-06-10长官商行50.00封禁赔付账号80%，白泽代言2026-06-10纯欲风商行49.00封号赔付押金+租金，多主播代言2026-06-10奇卡哇商行41.00封号赔付押金+租金，业内龙头2026-06-10浩博商行43.00封号赔付押金+租金，业内龙头2026-06-10古德商行40.00封号赔付押金+租金，业内龙头2026-06-10蒙多商行37.005%手续费到手比例40，法务售后自营封号全赔2026-06-10长官商行47.00封禁赔付账号80%，白泽代言2026-05-26叮当商行47.00封号全额赔偿，棠舟+老飞宇代言2026-05-26纯欲风商行48.00封号赔付押金+租金，多主播代言2026-05-26红猫商行44.00封号赔付押金+租金，墨羽代言2026-05-26奇卡哇商行41.00封号赔付押金+租金，业内龙头2026-05-26浩博商行42.00封号赔付押金+租金，业内龙头2026-05-26古德商行40.00封号赔付押金+租金，业内龙头2026-05-26蒙多商行37.005%手续费到手比例38.9，法务售后自营封号全赔2026-05-26纯欲风商行46.00封号赔付押金+租金，多主播代言2026-05-16红猫商行41.00封号赔付押金+租金，墨羽代言2026-05-16叮当商行46.50封号全额赔偿，棠舟+老飞宇代言2026-05-16长官商行42.00封禁赔付账号80%，白泽代言2026-05-16奇卡哇商行38.00封号赔付押金+租金，业内龙头2026-05-16浩博商行39.00封号赔付押金+租金，业内龙头2026-05-16红猫商行46.00封号赔付押金+租金，墨羽代言2026-07-04长官商行45.00封禁赔付账号80%，白泽代言2026-07-04叮当商行49.00封号全额赔偿，棠舟+老飞宇代言2026-07-04纯欲风商行45.00封号赔付押金+租金，多主播代言2026-07-04奇卡哇商行41.00封号赔付押金+租金，业内龙头2026-07-04浩浩租45.00封号赔付押金+租金，业内龙头2026-07-04古德商行42.00封号赔付押金+租金，业内龙头2026-07-04蒙多商行38.005%手续费到手比例40，法务售后自营封号全赔2026-07-04红猫商行44.00封号赔付押金+租金，墨羽代言2026-06-10叮当商行50.00封号全额赔偿，棠舟+老飞宇代言2026-06-10长官商行50.00封禁赔付账号80%，白泽代言2026-06-10纯欲风商行49.00封号赔付押金+租金，多主播代言2026-06-10奇卡哇商行41.00封号赔付押金+租金，业内龙头2026-06-10浩博商行43.00封号赔付押金+租金，业内龙头2026-06-10古德商行40.00封号赔付押金+租金，业内龙头2026-06-10蒙多商行37.005%手续费到手比例40，法务售后自营封号全赔2026-06-10长官商行47.00封禁赔付账号80%，白泽代言2026-05-26叮当商行47.00封号全额赔偿，棠舟+老飞宇代言2026-05-26纯欲风商行48.00封号赔付押金+租金，多主播代言2026-05-26红猫商行44.00封号赔付押金+租金，墨羽代言2026-05-26奇卡哇商行41.00封号赔付押金+租金，业内龙头2026-05-26浩博商行42.00封号赔付押金+租金，业内龙头2026-05-26古德商行40.00封号赔付押金+租金，业内龙头2026-05-26蒙多商行37.005%手续费到手比例38.9，法务售后自营封号全赔2026-05-26纯欲风商行46.00封号赔付押金+租金，多主播代言2026-05-16红猫商行41.00封号赔付押金+租金，墨羽代言2026-05-16叮当商行46.50封号全额赔偿，棠舟+老飞宇代言2026-05-16长官商行42.00封禁赔付账号80%，白泽代言2026-05-16奇卡哇商行38.00封号赔付押金+租金，业内龙头2026-05-16浩博商行39.00封号赔付押金+租金，业内龙头2026-05-16",
+    "哈夫币行情 更新时间 2026-07-04， 以下比例展示均为977带刀皮账号 查看更多",
+    "哈夫币行情 更新时间 2026-07-04， 以下比例展示均为977带刀皮账号",
+    "哈夫币行情",
+    "更新时间 2026-07-04， 以下比例展示均为977带刀皮账号",
+    "更新时间 2026-07-04，",
+    "查看更多",
+    "商行比例备注更新时间红猫商行46.00封号赔付押金+租金，墨羽代言2026-07-04长官商行45.00封禁赔付账号80%，白泽代言2026-07-04叮当商行49.00封号全额赔偿，棠舟+老飞宇代言2026-07-04纯欲风商行45.00封号赔付押金+租金，多主播代言2026-07-04奇卡哇商行41.00封号赔付押金+租金，业内龙头2026-07-04浩浩租45.00封号赔付押金+租金，业内龙头2026-07-04古德商行42.00封号赔付押金+租金，业内龙头2026-07-04蒙多商行38.005%手续费到手比例40，法务售后自营封号全赔2026-07-04红猫商行44.00封号赔付押金+租金，墨羽代言2026-06-10叮当商行50.00封号全额赔偿，棠舟+老飞宇代言2026-06-10长官商行50.00封禁赔付账号80%，白泽代言2026-06-10纯欲风商行49.00封号赔付押金+租金，多主播代言2026-06-10奇卡哇商行41.00封号赔付押金+租金，业内龙头2026-06-10浩博商行43.00封号赔付押金+租金，业内龙头2026-06-10古德商行40.00封号赔付押金+租金，业内龙头2026-06-10蒙多商行37.005%手续费到手比例40，法务售后自营封号全赔2026-06-10长官商行47.00封禁赔付账号80%，白泽代言2026-05-26叮当商行47.00封号全额赔偿，棠舟+老飞宇代言2026-05-26纯欲风商行48.00封号赔付押金+租金，多主播代言2026-05-26红猫商行44.00封号赔付押金+租金，墨羽代言2026-05-26奇卡哇商行41.00封号赔付押金+租金，业内龙头2026-05-26浩博商行42.00封号赔付押金+租金，业内龙头2026-05-26古德商行40.00封号赔付押金+租金，业内龙头2026-05-26蒙多商行37.005%手续费到手比例38.9，法务售后自营封号全赔2026-05-26纯欲风商行46.00封号赔付押金+租金，多主播代言2026-05-16红猫商行41.00封号赔付押金+租金，墨羽代言2026-05-16叮当商行46.50封号全额赔偿，棠舟+老飞宇代言2026-05-16长官商行42.00封禁赔付账号80%，白泽代言2026-05-16奇卡哇商行38.00封号赔付押金+租金，业内龙头2026-05-16浩博商行39.00封号赔付押金+租金，业内龙头2026-05-16红猫商行46.00封号赔付押金+租金，墨羽代言2026-07-04长官商行45.00封禁赔付账号80%，白泽代言2026-07-04叮当商行49.00封号全额赔偿，棠舟+老飞宇代言2026-07-04纯欲风商行45.00封号赔付押金+租金，多主播代言2026-07-04奇卡哇商行41.00封号赔付押金+租金，业内龙头2026-07-04浩浩租45.00封号赔付押金+租金，业内龙头2026-07-04古德商行42.00封号赔付押金+租金，业内龙头2026-07-04蒙多商行38.005%手续费到手比例40，法务售后自营封号全赔2026-07-04红猫商行44.00封号赔付押金+租金，墨羽代言2026-06-10叮当商行50.00封号全额赔偿，棠舟+老飞宇代言2026-06-10长官商行50.00封禁赔付账号80%，白泽代言2026-06-10纯欲风商行49.00封号赔付押金+租金，多主播代言2026-06-10奇卡哇商行41.00封号赔付押金+租金，业内龙头2026-06-10浩博商行43.00封号赔付押金+租金，业内龙头2026-06-10古德商行40.00封号赔付押金+租金，业内龙头2026-06-10蒙多商行37.005%手续费到手比例40，法务售后自营封号全赔2026-06-10长官商行47.00封禁赔付账号80%，白泽代言2026-05-26叮当商行47.00封号全额赔偿，棠舟+老飞宇代言2026-05-26纯欲风商行48.00封号赔付押金+租金，多主播代言2026-05-26红猫商行44.00封号赔付押金+租金，墨羽代言2026-05-26奇卡哇商行41.00封号赔付押金+租金，业内龙头2026-05-26浩博商行42.00封号赔付押金+租金，业内龙头2026-05-26古德商行40.00封号赔付押金+租金，业内龙头2026-05-26蒙多商行37.005%手续费到手比例38.9，法务售后自营封号全赔2026-05-26纯欲风商行46.00封号赔付押金+租金，多主播代言2026-05-16红猫商行41.00封号赔付押金+租金，墨羽代言2026-05-16叮当商行46.50封号全额赔偿，棠舟+老飞宇代言2026-05-16长官商行42.00封禁赔付账号80%，白泽代言2026-05-16奇卡哇商行38.00封号赔付押金+租金，业内龙头2026-05-16浩博商行39.00封号赔付押金+租金，业内龙头2026-05-16",
+    "商行比例备注更新时间",
+    "商行",
+    "比例",
+    "备注",
+    "更新时间",
+    "红猫商行46.00封号赔付押金+租金，墨羽代言2026-07-04长官商行45.00封禁赔付账号80%，白泽代言2026-07-04叮当商行49.00封号全额赔偿，棠舟+老飞宇代言2026-07-04纯欲风商行45.00封号赔付押金+租金，多主播代言2026-07-04奇卡哇商行41.00封号赔付押金+租金，业内龙头2026-07-04浩浩租45.00封号赔付押金+租金，业内龙头2026-07-04古德商行42.00封号赔付押金+租金，业内龙头2026-07-04蒙多商行38.005%手续费到手比例40，法务售后自营封号全赔2026-07-04红猫商行44.00封号赔付押金+租金，墨羽代言2026-06-10叮当商行50.00封号全额赔偿，棠舟+老飞宇代言2026-06-10长官商行50.00封禁赔付账号80%，白泽代言2026-06-10纯欲风商行49.00封号赔付押金+租金，多主播代言2026-06-10奇卡哇商行41.00封号赔付押金+租金，业内龙头2026-06-10浩博商行43.00封号赔付押金+租金，业内龙头2026-06-10古德商行40.00封号赔付押金+租金，业内龙头2026-06-10蒙多商行37.005%手续费到手比例40，法务售后自营封号全赔2026-06-10长官商行47.00封禁赔付账号80%，白泽代言2026-05-26叮当商行47.00封号全额赔偿，棠舟+老飞宇代言2026-05-26纯欲风商行48.00封号赔付押金+租金，多主播代言2026-05-26红猫商行44.00封号赔付押金+租金，墨羽代言2026-05-26奇卡哇商行41.00封号赔付押金+租金，业内龙头2026-05-26浩博商行42.00封号赔付押金+租金，业内龙头2026-05-26古德商行40.00封号赔付押金+租金，业内龙头2026-05-26蒙多商行37.005%手续费到手比例38.9，法务售后自营封号全赔2026-05-26纯欲风商行46.00封号赔付押金+租金，多主播代言2026-05-16红猫商行41.00封号赔付押金+租金，墨羽代言2026-05-16叮当商行46.50封号全额赔偿，棠舟+老飞宇代言2026-05-16长官商行42.00封禁赔付账号80%，白泽代言2026-05-16奇卡哇商行38.00封号赔付押金+租金，业内龙头2026-05-16浩博商行39.00封号赔付押金+租金，业内龙头2026-05-16红猫商行46.00封号赔付押金+租金，墨羽代言2026-07-04长官商行45.00封禁赔付账号80%，白泽代言2026-07-04叮当商行49.00封号全额赔偿，棠舟+老飞宇代言2026-07-04纯欲风商行45.00封号赔付押金+租金，多主播代言2026-07-04奇卡哇商行41.00封号赔付押金+租金，业内龙头2026-07-04浩浩租45.00封号赔付押金+租金，业内龙头2026-07-04古德商行42.00封号赔付押金+租金，业内龙头2026-07-04蒙多商行38.005%手续费到手比例40，法务售后自营封号全赔2026-07-04红猫商行44.00封号赔付押金+租金，墨羽代言2026-06-10叮当商行50.00封号全额赔偿，棠舟+老飞宇代言2026-06-10长官商行50.00封禁赔付账号80%，白泽代言2026-06-10纯欲风商行49.00封号赔付押金+租金，多主播代言2026-06-10奇卡哇商行41.00封号赔付押金+租金，业内龙头2026-06-10浩博商行43.00封号赔付押金+租金，业内龙头2026-06-10古德商行40.00封号赔付押金+租金，业内龙头2026-06-10蒙多商行37.005%手续费到手比例40，法务售后自营封号全赔2026-06-10长官商行47.00封禁赔付账号80%，白泽代言2026-05-26叮当商行47.00封号全额赔偿，棠舟+老飞宇代言2026-05-26纯欲风商行48.00封号赔付押金+租金，多主播代言2026-05-26红猫商行44.00封号赔付押金+租金，墨羽代言2026-05-26奇卡哇商行41.00封号赔付押金+租金，业内龙头2026-05-26浩博商行42.00封号赔付押金+租金，业内龙头2026-05-26古德商行40.00封号赔付押金+租金，业内龙头2026-05-26蒙多商行37.005%手续费到手比例38.9，法务售后自营封号全赔2026-05-26纯欲风商行46.00封号赔付押金+租金，多主播代言2026-05-16红猫商行41.00封号赔付押金+租金，墨羽代言2026-05-16叮当商行46.50封号全额赔偿，棠舟+老飞宇代言2026-05-16长官商行42.00封禁赔付账号80%，白泽代言2026-05-16奇卡哇商行38.00封号赔付押金+租金，业内龙头2026-05-16浩博商行39.00封号赔付押金+租金，业内龙头2026-05-16",
+    "红猫商行46.00封号赔付押金+租金，墨羽代言2026-07-04长官商行45.00封禁赔付账号80%，白泽代言2026-07-04叮当商行49.00封号全额赔偿，棠舟+老飞宇代言2026-07-04纯欲风商行45.00封号赔付押金+租金，多主播代言2026-07-04奇卡哇商行41.00封号赔付押金+租金，业内龙头2026-07-04浩浩租45.00封号赔付押金+租金，业内龙头2026-07-04古德商行42.00封号赔付押金+租金，业内龙头2026-07-04蒙多商行38.005%手续费到手比例40，法务售后自营封号全赔2026-07-04红猫商行44.00封号赔付押金+租金，墨羽代言2026-06-10叮当商行50.00封号全额赔偿，棠舟+老飞宇代言2026-06-10长官商行50.00封禁赔付账号80%，白泽代言2026-06-10纯欲风商行49.00封号赔付押金+租金，多主播代言2026-06-10奇卡哇商行41.00封号赔付押金+租金，业内龙头2026-06-10浩博商行43.00封号赔付押金+租金，业内龙头2026-06-10古德商行40.00封号赔付押金+租金，业内龙头2026-06-10蒙多商行37.005%手续费到手比例40，法务售后自营封号全赔2026-06-10长官商行47.00封禁赔付账号80%，白泽代言2026-05-26叮当商行47.00封号全额赔偿，棠舟+老飞宇代言2026-05-26纯欲风商行48.00封号赔付押金+租金，多主播代言2026-05-26红猫商行44.00封号赔付押金+租金，墨羽代言2026-05-26奇卡哇商行41.00封号赔付押金+租金，业内龙头2026-05-26浩博商行42.00封号赔付押金+租金，业内龙头2026-05-26古德商行40.00封号赔付押金+租金，业内龙头2026-05-26蒙多商行37.005%手续费到手比例38.9，法务售后自营封号全赔2026-05-26纯欲风商行46.00封号赔付押金+租金，多主播代言2026-05-16红猫商行41.00封号赔付押金+租金，墨羽代言2026-05-16叮当商行46.50封号全额赔偿，棠舟+老飞宇代言2026-05-16长官商行42.00封禁赔付账号80%，白泽代言2026-05-16奇卡哇商行38.00封号赔付押金+租金，业内龙头2026-05-16浩博商行39.00封号赔付押金+租金，业内龙头2026-05-16红猫商行46.00封号赔付押金+租金，墨羽代言2026-07-04长官商行45.00封禁赔付账号80%，白泽代言2026-07-04叮当商行49.00封号全额赔偿，棠舟+老飞宇代言2026-07-04纯欲风商行45.00封号赔付押金+租金，多主播代言2026-07-04奇卡哇商行41.00封号赔付押金+租金，业内龙头2026-07-04浩浩租45.00封号赔付押金+租金，业内龙头2026-07-04古德商行42.00封号赔付押金+租金，业内龙头2026-07-04蒙多商行38.005%手续费到手比例40，法务售后自营封号全赔2026-07-04红猫商行44.00封号赔付押金+租金，墨羽代言2026-06-10叮当商行50.00封号全额赔偿，棠舟+老飞宇代言2026-06-10长官商行50.00封禁赔付账号80%，白泽代言2026-06-10纯欲风商行49.00封号赔付押金+租金，多主播代言2026-06-10奇卡哇商行41.00封号赔付押金+租金，业内龙头2026-06-10浩博商行43.00封号赔付押金+租金，业内龙头2026-06-10古德商行40.00封号赔付押金+租金，业内龙头2026-06-10蒙多商行37.005%手续费到手比例40，法务售后自营封号全赔2026-06-10长官商行47.00封禁赔付账号80%，白泽代言2026-05-26叮当商行47.00封号全额赔偿，棠舟+老飞宇代言2026-05-26纯欲风商行48.00封号赔付押金+租金，多主播代言2026-05-26红猫商行44.00封号赔付押金+租金，墨羽代言2026-05-26奇卡哇商行41.00封号赔付押金+租金，业内龙头2026-05-26浩博商行42.00封号赔付押金+租金，业内龙头2026-05-26古德商行40.00封号赔付押金+租金，业内龙头2026-05-26蒙多商行37.005%手续费到手比例38.9，法务售后自营封号全赔2026-05-26纯欲风商行46.00封号赔付押金+租金，多主播代言2026-05-16红猫商行41.00封号赔付押金+租金，墨羽代言2026-05-16叮当商行46.50封号全额赔偿，棠舟+老飞宇代言2026-05-16长官商行42.00封禁赔付账号80%，白泽代言2026-05-16奇卡哇商行38.00封号赔付押金+租金，业内龙头2026-05-16浩博商行39.00封号赔付押金+租金，业内龙头2026-05-16",
+    "红猫商行46.00封号赔付押金+租金，墨羽代言2026-07-04",
+    "红猫商行",
+    "红猫商行",
+    "46.00",
+    "46.00",
+    "封号赔付押金+租金，墨羽代言",
+    "封号赔付押金+租金，墨羽代言",
+    "2026-07-04",
+    "2026-07-04",
+    "长官商行45.00封禁赔付账号80%，白泽代言2026-07-04",
+    "长官商行",
+    "长官商行",
+    "45.00",
+    "45.00",
+    "封禁赔付账号80%，白泽代言",
+    "封禁赔付账号80%，白泽代言",
+    "2026-07-04",
+    "2026-07-04",
+    "叮当商行49.00封号全额赔偿，棠舟+老飞宇代言2026-07-04",
+    "叮当商行",
+    "叮当商行",
+    "49.00",
+    "49.00",
+    "封号全额赔偿，棠舟+老飞宇代言",
+    "封号全额赔偿，棠舟+老飞宇代言",
+    "2026-07-04",
+    "2026-07-04",
+    "纯欲风商行45.00封号赔付押金+租金，多主播代言2026-07-04",
+    "纯欲风商行",
+    "纯欲风商行",
+    "45.00",
+    "45.00",
+    "封号赔付押金+租金，多主播代言",
+    "封号赔付押金+租金，多主播代言",
+    "2026-07-04",
+    "2026-07-04",
+    "奇卡哇商行41.00封号赔付押金+租金，业内龙头2026-07-04",
+    "奇卡哇商行",
+    "奇卡哇商行",
+    "41.00",
+    "41.00",
+    "封号赔付押金+租金，业内龙头",
+    "封号赔付押金+租金，业内龙头",
+    "2026-07-04",
+    "2026-07-04",
+    "浩浩租45.00封号赔付押金+租金，业内龙头2026-07-04",
+    "浩浩租",
+    "浩浩租",
+    "45.00",
+    "45.00",
+    "封号赔付押金+租金，业内龙头",
+    "封号赔付押金+租金，业内龙头",
+    "2026-07-04",
+    "2026-07-04",
+    "古德商行42.00封号赔付押金+租金，业内龙头2026-07-04",
+    "古德商行",
+    "古德商行",
+    "42.00",
+    "42.00",
+    "封号赔付押金+租金，业内龙头",
+    "封号赔付押金+租金，业内龙头",
+    "2026-07-04",
+    "2026-07-04",
+    "蒙多商行38.005%手续费到手比例40，法务售后自营封号全赔2026-07-04",
+    "蒙多商行",
+    "蒙多商行",
+    "38.00",
+    "38.00",
+    "5%手续费到手比例40，法务售后自营封号全赔",
+    "5%手续费到手比例40，法务售后自营封号全赔",
+    "2026-07-04",
+    "2026-07-04",
+    "红猫商行44.00封号赔付押金+租金，墨羽代言2026-06-10",
+    "红猫商行",
+    "红猫商行",
+    "44.00",
+    "44.00",
+    "封号赔付押金+租金，墨羽代言",
+    "封号赔付押金+租金，墨羽代言",
+    "2026-06-10",
+    "2026-06-10",
+    "叮当商行50.00封号全额赔偿，棠舟+老飞宇代言2026-06-10",
+    "叮当商行",
+    "叮当商行",
+    "50.00",
+    "50.00",
+    "封号全额赔偿，棠舟+老飞宇代言",
+    "封号全额赔偿，棠舟+老飞宇代言",
+    "2026-06-10",
+    "2026-06-10",
+    "长官商行50.00封禁赔付账号80%，白泽代言2026-06-10",
+    "长官商行",
+    "长官商行",
+    "50.00",
+    "50.00",
+    "封禁赔付账号80%，白泽代言",
+    "封禁赔付账号80%，白泽代言",
+    "2026-06-10",
+    "2026-06-10",
+    "纯欲风商行49.00封号赔付押金+租金，多主播代言2026-06-10",
+    "纯欲风商行",
+    "纯欲风商行",
+    "49.00",
+    "49.00",
+    "封号赔付押金+租金，多主播代言",
+    "封号赔付押金+租金，多主播代言",
+    "2026-06-10",
+    "2026-06-10",
+    "奇卡哇商行41.00封号赔付押金+租金，业内龙头2026-06-10",
+    "奇卡哇商行",
+    "奇卡哇商行",
+    "41.00",
+    "41.00",
+    "封号赔付押金+租金，业内龙头",
+    "封号赔付押金+租金，业内龙头",
+    "2026-06-10",
+    "2026-06-10",
+    "浩博商行43.00封号赔付押金+租金，业内龙头2026-06-10",
+    "浩博商行",
+    "浩博商行",
+    "43.00",
+    "43.00",
+    "封号赔付押金+租金，业内龙头",
+    "封号赔付押金+租金，业内龙头",
+    "2026-06-10",
+    "2026-06-10",
+    "古德商行40.00封号赔付押金+租金，业内龙头2026-06-10",
+    "古德商行",
+    "古德商行",
+    "40.00",
+    "40.00",
+    "封号赔付押金+租金，业内龙头",
+    "封号赔付押金+租金，业内龙头",
+    "2026-06-10",
+    "2026-06-10",
+    "蒙多商行37.005%手续费到手比例40，法务售后自营封号全赔2026-06-10",
+    "蒙多商行",
+    "蒙多商行",
+    "37.00",
+    "37.00",
+    "5%手续费到手比例40，法务售后自营封号全赔",
+    "5%手续费到手比例40，法务售后自营封号全赔",
+    "2026-06-10",
+    "2026-06-10",
+    "长官商行47.00封禁赔付账号80%，白泽代言2026-05-26",
+    "长官商行",
+    "长官商行",
+    "47.00",
+    "47.00",
+    "封禁赔付账号80%，白泽代言",
+    "封禁赔付账号80%，白泽代言",
+    "2026-05-26",
+    "2026-05-26",
+    "叮当商行47.00封号全额赔偿，棠舟+老飞宇代言2026-05-26",
+    "叮当商行",
+    "叮当商行",
+    "47.00",
+    "47.00",
+    "封号全额赔偿，棠舟+老飞宇代言",
+    "封号全额赔偿，棠舟+老飞宇代言",
+    "2026-05-26",
+    "2026-05-26",
+    "纯欲风商行48.00封号赔付押金+租金，多主播代言2026-05-26",
+    "纯欲风商行",
+    "纯欲风商行",
+    "48.00",
+    "48.00",
+    "封号赔付押金+租金，多主播代言",
+    "封号赔付押金+租金，多主播代言",
+    "2026-05-26",
+    "2026-05-26",
+    "红猫商行44.00封号赔付押金+租金，墨羽代言2026-05-26",
+    "红猫商行",
+    "红猫商行",
+    "44.00",
+    "44.00",
+    "封号赔付押金+租金，墨羽代言",
+    "封号赔付押金+租金，墨羽代言",
+    "2026-05-26",
+    "2026-05-26",
+    "奇卡哇商行41.00封号赔付押金+租金，业内龙头2026-05-26",
+    "奇卡哇商行",
+    "奇卡哇商行",
+    "41.00",
+    "41.00"
+  ]
+}

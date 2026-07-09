@@ -1,0 +1,378 @@
+{
+  "title": "欢迎登录 - 蒙佳哆商行",
+  "lang": "zh-CN",
+  "body": {
+    "className": "",
+    "backgroundColor": "rgb(245, 247, 250)",
+    "color": "rgb(51, 51, 51)",
+    "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif"
+  },
+  "meta": [
+    {
+      "name": null,
+      "property": null,
+      "content": null
+    },
+    {
+      "name": "viewport",
+      "property": null,
+      "content": "width=device-width, initial-scale=1.0"
+    },
+    {
+      "name": "description",
+      "property": null,
+      "content": "国内专业的游戏账号租赁平台，提供安全、便捷、低价的一站式租号服务。"
+    }
+  ],
+  "links": [
+    {
+      "rel": "icon",
+      "href": "https://www.mddjclub.com/vite.svg"
+    },
+    {
+      "rel": "stylesheet",
+      "href": "https://trans.mddjclub.com/assets/addons/fastim/css/fastim_default.css"
+    },
+    {
+      "rel": "stylesheet",
+      "href": "https://www.mddjclub.com/webStatic/index-BceMqJGx.css"
+    },
+    {
+      "rel": "modulepreload",
+      "href": "https://www.mddjclub.com/webStatic/Login-DsQfE_l7.js"
+    },
+    {
+      "rel": "stylesheet",
+      "href": "https://www.mddjclub.com/webStatic/Login-B5q17XWg.css"
+    }
+  ],
+  "nav": [
+    {
+      "tag": "a",
+      "className": "header-logo",
+      "id": "",
+      "text": "欢迎登录",
+      "href": "/",
+      "src": null,
+      "rect": {
+        "width": 195,
+        "height": 32
+      },
+      "style": {
+        "color": "rgb(51, 51, 51)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "14px",
+        "fontWeight": "400",
+        "lineHeight": "21px",
+        "borderRadius": "0px",
+        "boxShadow": "none",
+        "display": "flex",
+        "position": "static",
+        "gap": "12px"
+      }
+    },
+    {
+      "tag": "a",
+      "className": "",
+      "id": "",
+      "text": "返回首页",
+      "href": "/",
+      "src": null,
+      "rect": {
+        "width": 57,
+        "height": 21
+      },
+      "style": {
+        "color": "rgb(107, 114, 128)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "14px",
+        "fontWeight": "400",
+        "lineHeight": "21px",
+        "borderRadius": "0px",
+        "boxShadow": "none",
+        "display": "block",
+        "position": "static",
+        "gap": "normal"
+      }
+    },
+    {
+      "tag": "a",
+      "className": "",
+      "id": "",
+      "text": "帮助中心",
+      "href": "#",
+      "src": null,
+      "rect": {
+        "width": 57,
+        "height": 21
+      },
+      "style": {
+        "color": "rgb(107, 114, 128)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "14px",
+        "fontWeight": "400",
+        "lineHeight": "21px",
+        "borderRadius": "0px",
+        "boxShadow": "none",
+        "display": "block",
+        "position": "static",
+        "gap": "normal"
+      }
+    },
+    {
+      "tag": "a",
+      "className": "",
+      "id": "",
+      "text": "关于我们",
+      "href": "#",
+      "src": null,
+      "rect": {
+        "width": 57,
+        "height": 21
+      },
+      "style": {
+        "color": "rgb(107, 114, 128)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "14px",
+        "fontWeight": "400",
+        "lineHeight": "21px",
+        "borderRadius": "0px",
+        "boxShadow": "none",
+        "display": "block",
+        "position": "static",
+        "gap": "normal"
+      }
+    }
+  ],
+  "buttons": [
+    {
+      "tag": "button",
+      "className": "el-button el-button--primary el-button--large submit-btn",
+      "id": "",
+      "text": "登录",
+      "href": null,
+      "src": null,
+      "rect": {
+        "width": 340,
+        "height": 50
+      },
+      "style": {
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgb(64, 158, 255)",
+        "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "600",
+        "lineHeight": "16px",
+        "borderRadius": "12px",
+        "boxShadow": "none",
+        "display": "inline-flex",
+        "position": "static",
+        "gap": "normal"
+      }
+    }
+  ],
+  "forms": [
+    {
+      "tag": "form",
+      "className": "el-form el-form--default el-form--label-right auth-form",
+      "id": "",
+      "text": "登录",
+      "href": null,
+      "src": null,
+      "rect": {
+        "width": 340,
+        "height": 198
+      },
+      "style": {
+        "color": "rgb(51, 51, 51)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "14px",
+        "fontWeight": "400",
+        "lineHeight": "21px",
+        "borderRadius": "0px",
+        "boxShadow": "none",
+        "display": "block",
+        "position": "static",
+        "gap": "normal"
+      }
+    },
+    {
+      "tag": "input",
+      "className": "el-input__inner",
+      "id": "el-id-8265-5",
+      "text": "",
+      "href": null,
+      "src": null,
+      "rect": {
+        "width": 288,
+        "height": 38
+      },
+      "style": {
+        "color": "rgb(96, 98, 102)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Arial",
+        "fontSize": "14px",
+        "fontWeight": "400",
+        "lineHeight": "38px",
+        "borderRadius": "0px",
+        "boxShadow": "none",
+        "display": "block",
+        "position": "static",
+        "gap": "normal"
+      }
+    },
+    {
+      "tag": "input",
+      "className": "el-input__inner",
+      "id": "el-id-8265-6",
+      "text": "",
+      "href": null,
+      "src": null,
+      "rect": {
+        "width": 288,
+        "height": 38
+      },
+      "style": {
+        "color": "rgb(96, 98, 102)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "Arial",
+        "fontSize": "14px",
+        "fontWeight": "400",
+        "lineHeight": "38px",
+        "borderRadius": "0px",
+        "boxShadow": "none",
+        "display": "block",
+        "position": "static",
+        "gap": "normal"
+      }
+    }
+  ],
+  "images": [
+    {
+      "src": "https://oss.mddjclub.com/uploads/20260407/309643b3a2e3d7ec815fc83c1c16c969.png",
+      "alt": "蒙佳哆商行",
+      "width": 476,
+      "height": 158
+    }
+  ],
+  "sections": [
+    {
+      "tag": "div",
+      "className": "",
+      "id": "app",
+      "text": "欢迎登录返回首页帮助中心关于我们专业、安全、低价国内领先的游戏服务平台，为千万玩家提供优质租号服务。极速上号体验24h专业客服欢迎登录没有账号？立即注册密码登录验证码登录 登录 © 2026 蒙佳哆商行 | 渝ICP备2026002277号-2关于我们·帮助中心·用户协议·隐私政策",
+      "href": null,
+      "src": null,
+      "rect": {
+        "width": 1724,
+        "height": 1217
+      },
+      "style": {
+        "color": "rgb(51, 51, 51)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "14px",
+        "fontWeight": "400",
+        "lineHeight": "21px",
+        "borderRadius": "0px",
+        "boxShadow": "none",
+        "display": "block",
+        "position": "static",
+        "gap": "normal"
+      }
+    },
+    {
+      "tag": "div",
+      "className": "auth-page login-page",
+      "id": "",
+      "text": "欢迎登录返回首页帮助中心关于我们专业、安全、低价国内领先的游戏服务平台，为千万玩家提供优质租号服务。极速上号体验24h专业客服欢迎登录没有账号？立即注册密码登录验证码登录 登录 © 2026 蒙佳哆商行 | 渝ICP备2026002277号-2关于我们·帮助中心·用户协议·隐私政策",
+      "href": null,
+      "src": null,
+      "rect": {
+        "width": 1724,
+        "height": 1217
+      },
+      "style": {
+        "color": "rgb(51, 51, 51)",
+        "backgroundColor": "rgb(245, 247, 250)",
+        "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif",
+        "fontSize": "14px",
+        "fontWeight": "400",
+        "lineHeight": "21px",
+        "borderRadius": "0px",
+        "boxShadow": "none",
+        "display": "flex",
+        "position": "static",
+        "gap": "normal"
+      }
+    }
+  ],
+  "cards": [],
+  "colors": [
+    "rgb(51, 51, 51)",
+    "rgb(245, 247, 250)",
+    "rgb(255, 255, 255)",
+    "rgb(229, 231, 235)",
+    "rgb(31, 41, 55)",
+    "rgb(107, 114, 128)",
+    "rgba(255, 255, 255, 0.9)",
+    "rgb(58, 142, 230)",
+    "rgb(51, 51, 51) rgb(51, 51, 51) rgb(229, 231, 235)",
+    "rgb(168, 171, 178)",
+    "rgb(96, 98, 102)",
+    "rgb(64, 158, 255)",
+    "rgb(156, 163, 175)"
+  ],
+  "fonts": [
+    "-apple-system, \"system-ui\", \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif",
+    "Arial"
+  ],
+  "textBlocks": [
+    "欢迎登录返回首页帮助中心关于我们专业、安全、低价国内领先的游戏服务平台，为千万玩家提供优质租号服务。极速上号体验24h专业客服欢迎登录没有账号？立即注册密码登录验证码登录 登录 © 2026 蒙佳哆商行 | 渝ICP备2026002277号-2关于我们·帮助中心·用户协议·隐私政策",
+    "欢迎登录返回首页帮助中心关于我们专业、安全、低价国内领先的游戏服务平台，为千万玩家提供优质租号服务。极速上号体验24h专业客服欢迎登录没有账号？立即注册密码登录验证码登录 登录 © 2026 蒙佳哆商行 | 渝ICP备2026002277号-2关于我们·帮助中心·用户协议·隐私政策",
+    "欢迎登录返回首页帮助中心关于我们专业、安全、低价国内领先的游戏服务平台，为千万玩家提供优质租号服务。极速上号体验24h专业客服欢迎登录没有账号？立即注册密码登录验证码登录 登录 © 2026 蒙佳哆商行 | 渝ICP备2026002277号-2关于我们·帮助中心·用户协议·隐私政策",
+    "欢迎登录返回首页帮助中心关于我们专业、安全、低价国内领先的游戏服务平台，为千万玩家提供优质租号服务。极速上号体验24h专业客服欢迎登录没有账号？立即注册密码登录验证码登录 登录 © 2026 蒙佳哆商行 | 渝ICP备2026002277号-2关于我们·帮助中心·用户协议·隐私政策",
+    "欢迎登录返回首页帮助中心关于我们",
+    "欢迎登录返回首页帮助中心关于我们",
+    "欢迎登录",
+    "欢迎登录",
+    "返回首页帮助中心关于我们",
+    "返回首页",
+    "帮助中心",
+    "关于我们",
+    "专业、安全、低价国内领先的游戏服务平台，为千万玩家提供优质租号服务。极速上号体验24h专业客服欢迎登录没有账号？立即注册密码登录验证码登录 登录",
+    "专业、安全、低价国内领先的游戏服务平台，为千万玩家提供优质租号服务。极速上号体验24h专业客服",
+    "专业、安全、低价国内领先的游戏服务平台，为千万玩家提供优质租号服务。极速上号体验24h专业客服",
+    "专业、安全、低价",
+    "国内领先的游戏服务平台，为千万玩家提供优质租号服务。",
+    "极速上号体验24h专业客服",
+    "极速上号体验",
+    "极速上号体验",
+    "24h专业客服",
+    "24h专业客服",
+    "欢迎登录没有账号？立即注册密码登录验证码登录 登录",
+    "欢迎登录没有账号？立即注册密码登录验证码登录 登录",
+    "欢迎登录没有账号？立即注册",
+    "欢迎登录",
+    "没有账号？立即注册",
+    "立即注册",
+    "密码登录验证码登录",
+    "密码登录",
+    "验证码登录",
+    "登录",
+    "登录",
+    "登录",
+    "© 2026 蒙佳哆商行 | 渝ICP备2026002277号-2关于我们·帮助中心·用户协议·隐私政策",
+    "© 2026 蒙佳哆商行 | 渝ICP备2026002277号-2",
+    "关于我们·帮助中心·用户协议·隐私政策",
+    "关于我们",
+    "帮助中心",
+    "用户协议",
+    "隐私政策"
+  ]
+}
