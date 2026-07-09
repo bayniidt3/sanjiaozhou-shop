@@ -2,6 +2,8 @@ import { MessagesTable } from "@/components/messages-table";
 import { SummaryCard } from "@/components/summary-card";
 import { listMessages } from "@/lib/api";
 
+export const dynamic = "force-dynamic";
+
 export default async function MessagesPage() {
   const messages = await listMessages();
   const newCount = messages.filter((item) => item.status === "new").length;

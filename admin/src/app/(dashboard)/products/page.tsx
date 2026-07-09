@@ -2,6 +2,8 @@ import { ProductsTable } from "@/components/products-table";
 import { SummaryCard } from "@/components/summary-card";
 import { listProducts } from "@/lib/api";
 
+export const dynamic = "force-dynamic";
+
 export default async function ProductsPage() {
   const products = await listProducts();
   const publishedCount = products.filter((item) => item.status === "published").length;
