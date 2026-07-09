@@ -5,15 +5,16 @@ import { ChevronLeft, ChevronRight } from "lucide-react";
 
 import { FilterPanel } from "@/components/mddjclub/filter-panel";
 import { ProductCard } from "@/components/mddjclub/product-card";
-import { filterRows, listCards } from "@/components/mddjclub/site-data";
+import { filterRows } from "@/components/mddjclub/site-data";
+import type { ProductCard as ProductCardType } from "@/types/mddjclub";
 
 const initialFilters = Object.fromEntries(filterRows.map((row) => [row.label, row.values[0]]));
 
-export function ListPageClient() {
+export function ListPageClient({ products }: { products: ProductCardType[] }) {
   const [selectedFilters, setSelectedFilters] = useState<Record<string, string>>(initialFilters);
 
   const filteredCards = useMemo(() => {
-    return listCards.filter((card) => {
+    return products.filter((card) => {
       const category = selectedFilters["选择分类"];
       if (category !== "全部" && !card.title.includes(category) && !card.tags.some((tag) => tag.includes(category))) {
         return false;
@@ -46,7 +47,7 @@ export function ListPageClient() {
 
       return true;
     });
-  }, [selectedFilters]);
+  }, [products, selectedFilters]);
 
   const handleFilterChange = (label: string, value: string) => {
     setSelectedFilters((current) => ({ ...current, [label]: value }));

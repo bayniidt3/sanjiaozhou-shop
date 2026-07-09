@@ -1,10 +1,11 @@
 "use client";
 
-import { useState, useTransition } from "react";
+import { useEffect, useState, useTransition } from "react";
 
 import type { LeadMessageRecord, MessageStatus } from "@/types/admin";
 
 import { formatDateTime } from "@/lib/format";
+import { getSupabaseBrowser } from "@/lib/supabase-browser";
 import { StatusPill } from "@/components/status-pill";
 
 const labelMap: Record<MessageStatus, string> = {
@@ -19,28 +20,33 @@ const toneMap: Record<MessageStatus, "success" | "warning" | "neutral"> = {
   archived: "neutral",
 };
 
-export function MessagesTable({ initialMessages }: { initialMessages: LeadMessageRecord[] }) {
-  const basePath = process.env.NEXT_PUBLIC_BASE_PATH || "";
+export function MessagesTable({ initialMessages, loading = false }: { initialMessages: LeadMessageRecord[]; loading?: boolean }) {
   const [messages, setMessages] = useState(initialMessages);
   const [pendingId, setPendingId] = useState<string | null>(null);
   const [isPending, startTransition] = useTransition();
+
+  useEffect(() => {
+    setMessages(initialMessages);
+  }, [initialMessages]);
 
   const handleStatusChange = (message: LeadMessageRecord, status: MessageStatus) => {
     setPendingId(message.id);
 
     startTransition(async () => {
-      const response = await fetch(`${basePath}/api/messages`, {
-        method: "PATCH",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ id: message.id, status }),
-      });
+      const supabase = getSupabaseBrowser();
+      const { data, error } = await supabase
+        .from("lead_messages")
+        .update({ status, updated_at: new Date().toISOString() } as never)
+        .eq("id", message.id)
+        .select("*")
+        .single();
 
-      if (!response.ok) {
+      if (error || !data) {
         setPendingId(null);
         return;
       }
 
-      const nextMessage = (await response.json()) as LeadMessageRecord;
+      const nextMessage = data as LeadMessageRecord;
       setMessages((current) => current.map((item) => (item.id === nextMessage.id ? nextMessage : item)));
       setPendingId(null);
     });
@@ -62,6 +68,13 @@ export function MessagesTable({ initialMessages }: { initialMessages: LeadMessag
             </tr>
           </thead>
           <tbody>
+            {loading ? (
+              <tr>
+                <td colSpan={7} className="px-6 py-10 text-center text-sm text-[#7b8aa1]">
+                  正在加载留言数据...
+                </td>
+              </tr>
+            ) : null}
             {messages.map((message) => {
               const disabled = isPending && pendingId === message.id;
 

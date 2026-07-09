@@ -1,51 +1,64 @@
 "use client";
 
 import Image from "next/image";
-import { useState, useTransition } from "react";
+import { useEffect, useState, useTransition } from "react";
 
 import type { ProductRecord, ProductStatus } from "@/types/admin";
 
 import { formatDateTime } from "@/lib/format";
 import { ProductFormDialog } from "@/components/product-form-dialog";
+import { getSupabaseBrowser } from "@/lib/supabase-browser";
 import { StatusPill } from "@/components/status-pill";
 
-export function ProductsTable({ initialProducts }: { initialProducts: ProductRecord[] }) {
-  const basePath = process.env.NEXT_PUBLIC_BASE_PATH || "";
+export function ProductsTable({ initialProducts, loading = false }: { initialProducts: ProductRecord[]; loading?: boolean }) {
   const [products, setProducts] = useState(initialProducts);
   const [pendingId, setPendingId] = useState<string | null>(null);
   const [dialogOpen, setDialogOpen] = useState(false);
   const [editingProduct, setEditingProduct] = useState<ProductRecord | null>(null);
   const [isPending, startTransition] = useTransition();
 
+  useEffect(() => {
+    setProducts(initialProducts);
+  }, [initialProducts]);
+
   const handleToggle = (product: ProductRecord) => {
     const nextStatus: ProductStatus = product.status === "published" ? "draft" : "published";
     setPendingId(product.id);
 
     startTransition(async () => {
-      const response = await fetch(`${basePath}/api/products`, {
-        method: "PATCH",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ id: product.id, status: nextStatus }),
-      });
+      const supabase = getSupabaseBrowser();
+      const { data, error } = await supabase
+        .from("products")
+        .update({ status: nextStatus, updated_at: new Date().toISOString() } as never)
+        .eq("id", product.id)
+        .select("*")
+        .single();
 
-      if (!response.ok) {
+      if (error || !data) {
         setPendingId(null);
         return;
       }
 
-      const nextProduct = (await response.json()) as ProductRecord;
+      const nextProduct = data as ProductRecord;
       setProducts((current) => current.map((item) => (item.id === nextProduct.id ? nextProduct : item)));
       setPendingId(null);
     });
   };
 
   const handleDelete = (id: string) => {
+    const confirmed = window.confirm("确认删除这个产品吗？删除后无法恢复。");
+
+    if (!confirmed) {
+      return;
+    }
+
     setPendingId(id);
 
     startTransition(async () => {
-      const response = await fetch(`${basePath}/api/products?id=${id}`, { method: "DELETE" });
+      const supabase = getSupabaseBrowser();
+      const { error } = await supabase.from("products").delete().eq("id", id);
 
-      if (response.ok) {
+      if (!error) {
         setProducts((current) => current.filter((item) => item.id !== id));
       }
 
@@ -55,17 +68,17 @@ export function ProductsTable({ initialProducts }: { initialProducts: ProductRec
 
   const handleSubmit = (payload: Record<string, unknown>) => {
     startTransition(async () => {
-      const response = await fetch(`${basePath}/api/products`, {
-        method: editingProduct ? "PATCH" : "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(editingProduct ? { ...payload, id: editingProduct.id, mode: "full" } : payload),
-      });
+      const supabase = getSupabaseBrowser();
+      const query = editingProduct
+        ? supabase.from("products").update({ ...payload, updated_at: new Date().toISOString() } as never).eq("id", editingProduct.id)
+        : supabase.from("products").insert({ ...payload, updated_at: new Date().toISOString() } as never);
+      const { data, error } = await query.select("*").single();
 
-      if (!response.ok) {
+      if (error || !data) {
         return;
       }
 
-      const savedProduct = (await response.json()) as ProductRecord;
+      const savedProduct = data as ProductRecord;
       setProducts((current) =>
         editingProduct ? current.map((item) => (item.id === savedProduct.id ? savedProduct : item)) : [savedProduct, ...current],
       );
@@ -103,6 +116,13 @@ export function ProductsTable({ initialProducts }: { initialProducts: ProductRec
             </tr>
           </thead>
           <tbody>
+            {loading ? (
+              <tr>
+                <td colSpan={6} className="px-6 py-10 text-center text-sm text-[#7b8aa1]">
+                  正在加载产品数据...
+                </td>
+              </tr>
+            ) : null}
             {products.map((product) => {
               const disabled = isPending && pendingId === product.id;
 

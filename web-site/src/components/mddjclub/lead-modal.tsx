@@ -19,19 +19,58 @@ export function LeadModal({ defaultType, open, onClose }: LeadModalProps) {
   const [contact, setContact] = useState("");
   const [remark, setRemark] = useState("");
   const [submitted, setSubmitted] = useState(false);
+  const [submitting, setSubmitting] = useState(false);
+  const [error, setError] = useState("");
 
   useEffect(() => {
     if (defaultType) {
       setType(defaultType);
       setSubmitted(false);
+      setError("");
     }
   }, [defaultType]);
 
   if (!open) return null;
 
-  const handleSubmit = (event: React.FormEvent<HTMLFormElement>) => {
+  const handleSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
-    setSubmitted(true);
+
+    if (!name.trim() || !contact.trim()) {
+      setError("请先填写联系人和联系方式");
+      return;
+    }
+
+    setSubmitting(true);
+    setError("");
+
+    try {
+      const response = await fetch("/api/lead-messages", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          contactName: name,
+          contactValue: contact,
+          leadType: type,
+          remark,
+        }),
+      });
+
+      if (!response.ok) {
+        const result = (await response.json()) as { error?: string };
+        throw new Error(result.error || "提交失败");
+      }
+
+      setSubmitted(true);
+      setName("");
+      setContact("");
+      setRemark("");
+    } catch (submitError) {
+      setError(submitError instanceof Error ? submitError.message : "提交失败");
+    } finally {
+      setSubmitting(false);
+    }
   };
 
   return (
@@ -54,7 +93,7 @@ export function LeadModal({ defaultType, open, onClose }: LeadModalProps) {
           <div className="px-6 py-12 text-center">
             <div className="text-[24px] font-semibold text-[#1f2937]">提交成功</div>
             <p className="mt-3 text-[14px] leading-7 text-[#7f8aa3]">
-              已记录 `{type}` 线索，后续接后台时可以直接把这里改成真实提交接口。
+              已记录 `{type}` 线索，后台留言管理中可以直接查看。
             </p>
             <button
               type="button"
@@ -116,6 +155,7 @@ export function LeadModal({ defaultType, open, onClose }: LeadModalProps) {
                 className="min-h-[110px] w-full rounded-[10px] border border-[#dce5f0] px-4 py-3 text-[14px] outline-none transition-colors focus:border-[#4698f3]"
               />
             </div>
+            {error ? <div className="text-[13px] text-[#d14343]">{error}</div> : null}
             <div className="flex justify-end gap-3 pt-2">
               <button
                 type="button"
@@ -126,9 +166,10 @@ export function LeadModal({ defaultType, open, onClose }: LeadModalProps) {
               </button>
               <button
                 type="submit"
+                disabled={submitting}
                 className="rounded-[10px] bg-[#4698f3] px-5 py-3 text-[14px] font-semibold text-white"
               >
-                提交线索
+                {submitting ? "提交中..." : "提交线索"}
               </button>
             </div>
           </form>

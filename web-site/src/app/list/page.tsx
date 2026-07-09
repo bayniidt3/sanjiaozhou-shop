@@ -1,8 +1,13 @@
 import { ListPageClient } from "@/components/mddjclub/list-page-client";
 import { SiteFooter } from "@/components/mddjclub/site-footer";
 import { SiteHeader } from "@/components/mddjclub/site-header";
+import { fetchPublishedProductCards } from "@/lib/supabase-public";
 
-export default function ListPage() {
+export const dynamic = "force-dynamic";
+
+export default async function ListPage() {
+  const products = await fetchPublishedProductCards();
+
   return (
     <>
       <div className="lg:hidden">
@@ -13,7 +18,7 @@ export default function ListPage() {
       </div>
       <main className="pb-0">
         <div className="mddj-container py-4 text-[13px] text-[#7f8aa3] lg:py-5">首页 / 租号大厅</div>
-        <ListPageClient />
+        <ListPageClient products={products} />
       </main>
       <SiteFooter />
     </>

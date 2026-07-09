@@ -2,11 +2,16 @@ import Link from "next/link";
 import { ArrowRight, ChevronRight, Wallet } from "lucide-react";
 
 import { ProductCard } from "@/components/mddjclub/product-card";
-import { featuredCards, marketRows } from "@/components/mddjclub/site-data";
+import { marketRows } from "@/components/mddjclub/site-data";
 import { SiteFooter } from "@/components/mddjclub/site-footer";
 import { SiteHeader } from "@/components/mddjclub/site-header";
+import { fetchPublishedProductCards } from "@/lib/supabase-public";
 
-export default function Home() {
+export const dynamic = "force-dynamic";
+
+export default async function Home() {
+  const featuredCards = (await fetchPublishedProductCards()).slice(0, 6);
+
   return (
     <>
       <div className="lg:hidden">
