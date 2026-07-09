@@ -6,12 +6,15 @@ import { useState, useTransition } from "react";
 import type { ProductRecord, ProductStatus } from "@/types/admin";
 
 import { formatDateTime } from "@/lib/format";
+import { ProductFormDialog } from "@/components/product-form-dialog";
 import { StatusPill } from "@/components/status-pill";
 
 export function ProductsTable({ initialProducts }: { initialProducts: ProductRecord[] }) {
   const basePath = process.env.NEXT_PUBLIC_BASE_PATH || "";
   const [products, setProducts] = useState(initialProducts);
   const [pendingId, setPendingId] = useState<string | null>(null);
+  const [dialogOpen, setDialogOpen] = useState(false);
+  const [editingProduct, setEditingProduct] = useState<ProductRecord | null>(null);
   const [isPending, startTransition] = useTransition();
 
   const handleToggle = (product: ProductRecord) => {
@@ -36,9 +39,58 @@ export function ProductsTable({ initialProducts }: { initialProducts: ProductRec
     });
   };
 
+  const handleDelete = (id: string) => {
+    setPendingId(id);
+
+    startTransition(async () => {
+      const response = await fetch(`${basePath}/api/products?id=${id}`, { method: "DELETE" });
+
+      if (response.ok) {
+        setProducts((current) => current.filter((item) => item.id !== id));
+      }
+
+      setPendingId(null);
+    });
+  };
+
+  const handleSubmit = (payload: Record<string, unknown>) => {
+    startTransition(async () => {
+      const response = await fetch(`${basePath}/api/products`, {
+        method: editingProduct ? "PATCH" : "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(editingProduct ? { ...payload, id: editingProduct.id, mode: "full" } : payload),
+      });
+
+      if (!response.ok) {
+        return;
+      }
+
+      const savedProduct = (await response.json()) as ProductRecord;
+      setProducts((current) =>
+        editingProduct ? current.map((item) => (item.id === savedProduct.id ? savedProduct : item)) : [savedProduct, ...current],
+      );
+      setDialogOpen(false);
+      setEditingProduct(null);
+    });
+  };
+
   return (
-    <div className="overflow-hidden rounded-[28px] border border-white/70 bg-white/92 shadow-[0_20px_60px_rgba(15,23,42,0.08)]">
-      <div className="overflow-x-auto">
+    <>
+      <div className="overflow-hidden rounded-[28px] border border-white/70 bg-white/92 shadow-[0_20px_60px_rgba(15,23,42,0.08)]">
+        <div className="flex items-center justify-between border-b border-[#eef2f6] px-6 py-5">
+          <div className="text-[15px] font-semibold text-[#10243c]">产品列表</div>
+          <button
+            type="button"
+            onClick={() => {
+              setEditingProduct(null);
+              setDialogOpen(true);
+            }}
+            className="rounded-full bg-[#0f4c81] px-4 py-2 text-[13px] font-semibold text-white"
+          >
+            新增产品
+          </button>
+        </div>
+        <div className="overflow-x-auto">
         <table className="min-w-full text-left">
           <thead className="bg-[#f6f9fc] text-[13px] uppercase tracking-[0.16em] text-[#7b8aa1]">
             <tr>
@@ -81,14 +133,34 @@ export function ProductsTable({ initialProducts }: { initialProducts: ProductRec
                   </td>
                   <td className="px-4 py-4 text-[#6d7c92]">{formatDateTime(product.updated_at)}</td>
                   <td className="px-6 py-4">
-                    <button
-                      type="button"
-                      disabled={disabled}
-                      onClick={() => handleToggle(product)}
-                      className="rounded-full bg-[#0f4c81] px-4 py-2 text-[13px] font-semibold text-white disabled:opacity-50"
-                    >
-                      {disabled ? "处理中..." : product.status === "published" ? "下架" : "上架"}
-                    </button>
+                    <div className="flex gap-2">
+                      <button
+                        type="button"
+                        onClick={() => {
+                          setEditingProduct(product);
+                          setDialogOpen(true);
+                        }}
+                        className="rounded-full border border-[#dbe5ee] px-4 py-2 text-[13px] font-semibold text-[#4a5b71]"
+                      >
+                        编辑
+                      </button>
+                      <button
+                        type="button"
+                        disabled={disabled}
+                        onClick={() => handleToggle(product)}
+                        className="rounded-full bg-[#0f4c81] px-4 py-2 text-[13px] font-semibold text-white disabled:opacity-50"
+                      >
+                        {disabled ? "处理中..." : product.status === "published" ? "下架" : "上架"}
+                      </button>
+                      <button
+                        type="button"
+                        disabled={disabled}
+                        onClick={() => handleDelete(product.id)}
+                        className="rounded-full border border-[#f0c2c2] px-4 py-2 text-[13px] font-semibold text-[#b24b4b] disabled:opacity-50"
+                      >
+                        删除
+                      </button>
+                    </div>
                   </td>
                 </tr>
               );
@@ -96,6 +168,18 @@ export function ProductsTable({ initialProducts }: { initialProducts: ProductRec
           </tbody>
         </table>
       </div>
-    </div>
+      </div>
+      <ProductFormDialog
+        key={editingProduct?.id || "new-product"}
+        open={dialogOpen}
+        product={editingProduct}
+        submitting={isPending}
+        onClose={() => {
+          setDialogOpen(false);
+          setEditingProduct(null);
+        }}
+        onSubmit={handleSubmit}
+      />
+    </>
   );
 }
