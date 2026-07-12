@@ -1,11 +1,12 @@
+# 指定Node版本适配Next14/15
 [build.environment]
 NODE_VERSION = "20"
 
+# 构建配置（base是当前web-site文件夹）
 [build]
 command = "npm run build"
-# 发布目录改为 .next，不再用out
 publish = ".next"
 
-# Next适配核心插件，自动处理路由、SSR
+# Next官方适配插件，自动处理路由、发布产物、SPA刷新404
 [[plugins]]
 package = "@netlify/plugin-nextjs"
