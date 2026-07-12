@@ -1,12 +1,17 @@
-# 指定Node版本适配Next14/15
-[build.environment]
+[
+build.environment
+]
 NODE_VERSION = "20"
 
-# 构建配置（base是当前web-site文件夹）
-[build]
-command = "npm run build"
+# 这里base="." 代表以web-site为工作根目录，和面板Base directory对应
+[
+build
+]
+command = "pnpm run build"
 publish = ".next"
 
-# Next官方适配插件，自动处理路由、发布产物、SPA刷新404
-[[plugins]]
+# Next官方适配插件，自动处理路由、SSR、刷新404
+[[
+plugins
+]]
 package = "@netlify/plugin-nextjs"
