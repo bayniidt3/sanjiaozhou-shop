@@ -1,9 +1,7 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
-  output: "standalone",
-    trailingSlash: true, // 防止刷新404
+  // 删掉 output: "export" 和 standalone
 };
 
 export default nextConfig;
