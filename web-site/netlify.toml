@@ -1,17 +1,9 @@
-[
-build.environment
-]
+[build.environment]
 NODE_VERSION = "20"
 
-# 这里base="." 代表以web-site为工作根目录，和面板Base directory对应
-[
-build
-]
+[build]
 command = "pnpm run build"
 publish = ".next"
 
-# Next官方适配插件，自动处理路由、SSR、刷新404
-[[
-plugins
-]]
+[[plugins]]
 package = "@netlify/plugin-nextjs"
