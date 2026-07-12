@@ -28,10 +28,10 @@ export const footerColumns = [
 ];
 
 export const marketRows = [
-  { seller: "长官商行", ratio: "45.00", note: "封禁赔付账号80%，白泽代言", date: "2026-07-04" },
-  { seller: "叮当商行", ratio: "49.00", note: "封号全额赔偿，寒冲+老飞宇代言", date: "2026-07-04" },
-  { seller: "镇叙风商行", ratio: "45.00", note: "封号赔付押金+租金，多主播代言", date: "2026-07-04" },
-  { seller: "春卡哇商行", ratio: "41.00", note: "封号赔付押金+租金，业内龙头", date: "2026-07-04" },
+  { seller: "长官商行", ratio: "45.00", note: "封禁赔付账号80%，白泽代言", date: "2026-07-12" },
+  { seller: "叮当商行", ratio: "49.00", note: "封号全额赔偿，寒冲+老飞宇代言", date: "2026-07-12" },
+  { seller: "纯欲风商行", ratio: "45.00", note: "封号赔付押金+租金，多主播代言", date: "2026-07-12" },
+  { seller: "奇卡哇商行", ratio: "41.00", note: "封号赔付押金+租金，业内龙头", date: "2026-07-12" },
 ];
 
 export const featuredCards: ProductCard[] = [

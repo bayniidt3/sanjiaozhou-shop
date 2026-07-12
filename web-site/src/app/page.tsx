@@ -68,7 +68,7 @@ export default async function Home() {
                   哈夫币行情
                 </div>
                 <p className="mt-2 text-[13px] text-[#7f8aa3]">
-                  更新时间 2026-07-04， 以下比例展示均为977带刀皮账号
+                  更新时间 {new Date().toLocaleDateString()}， 以下比例展示均为977带刀皮账号
                 </p>
               </div>
               <Link href="#" className="mt-2 inline-flex items-center gap-1 text-[13px] font-semibold text-[#4f90ea]">
