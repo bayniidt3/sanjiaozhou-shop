@@ -23,6 +23,10 @@ type LeadInsertPayload = {
   contactValue: string;
   leadType: LeadType;
   remark: string;
+  aw?: string;
+  coinOnly?: string;
+  currentAssets?: string;
+  knifeSkin?: string;
 };
 
 function getSupabaseConfig() {
@@ -176,6 +180,10 @@ export async function createLeadMessage(payload: LeadInsertPayload) {
       contact_value: payload.contactValue,
       lead_type: payload.leadType,
       remark: payload.remark || null,
+      current_assets: payload.currentAssets?.trim() || null,
+      coin_only: payload.coinOnly?.trim() || null,
+      aw: payload.aw?.trim() || null,
+      knife_skin: payload.knifeSkin?.trim() || null,
       status: "new",
     }),
   });

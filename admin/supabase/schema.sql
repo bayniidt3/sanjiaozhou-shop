@@ -20,14 +20,27 @@ create table if not exists public.products (
 
 create table if not exists public.lead_messages (
   id uuid primary key default gen_random_uuid(),
-  lead_type text not null check (lead_type in ('账号上架', '求购', '客服')),
+  lead_type text not null check (lead_type in ('账号上架', '求购', '客服', '类型2')),
   contact_name text not null,
   contact_value text not null,
   remark text,
+  current_assets text,
+  coin_only text,
+  aw text,
+  knife_skin text,
   status text not null default 'new' check (status in ('new', 'contacted', 'archived')),
   created_at timestamptz not null default now(),
   updated_at timestamptz not null default now()
 );
+
+alter table public.lead_messages add column if not exists current_assets text;
+alter table public.lead_messages add column if not exists coin_only text;
+alter table public.lead_messages add column if not exists aw text;
+alter table public.lead_messages add column if not exists knife_skin text;
+alter table public.lead_messages drop constraint if exists lead_messages_lead_type_check;
+alter table public.lead_messages
+  add constraint lead_messages_lead_type_check
+  check (lead_type in ('账号上架', '求购', '客服', '类型2'));
 
 create or replace function public.set_updated_at()
 returns trigger

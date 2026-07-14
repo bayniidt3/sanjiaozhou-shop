@@ -61,6 +61,10 @@ export function MessagesTable({ initialMessages, loading = false }: { initialMes
               <th className="px-6 py-4 font-medium">联系人</th>
               <th className="px-4 py-4 font-medium">类型</th>
               <th className="px-4 py-4 font-medium">联系方式</th>
+              <th className="px-4 py-4 font-medium">流动资产</th>
+              <th className="px-4 py-4 font-medium">纯币</th>
+              <th className="px-4 py-4 font-medium">AW</th>
+              <th className="px-4 py-4 font-medium">刀皮</th>
               <th className="px-4 py-4 font-medium">备注</th>
               <th className="px-4 py-4 font-medium">状态</th>
               <th className="px-4 py-4 font-medium">提交时间</th>
@@ -70,7 +74,7 @@ export function MessagesTable({ initialMessages, loading = false }: { initialMes
           <tbody>
             {loading ? (
               <tr>
-                <td colSpan={7} className="px-6 py-10 text-center text-sm text-[#7b8aa1]">
+                <td colSpan={11} className="px-6 py-10 text-center text-sm text-[#7b8aa1]">
                   正在加载留言数据...
                 </td>
               </tr>
@@ -83,6 +87,10 @@ export function MessagesTable({ initialMessages, loading = false }: { initialMes
                   <td className="px-6 py-4 font-semibold">{message.contact_name}</td>
                   <td className="px-4 py-4">{message.lead_type}</td>
                   <td className="px-4 py-4">{message.contact_value}</td>
+                  <td className="px-4 py-4">{message.current_assets || "-"}</td>
+                  <td className="px-4 py-4">{message.coin_only || "-"}</td>
+                  <td className="px-4 py-4">{message.aw || "-"}</td>
+                  <td className="px-4 py-4">{message.knife_skin || "-"}</td>
                   <td className="max-w-[360px] px-4 py-4 text-[#607089]">{message.remark || "-"}</td>
                   <td className="px-4 py-4">
                     <StatusPill tone={toneMap[message.status]}>{labelMap[message.status]}</StatusPill>

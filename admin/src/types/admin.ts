@@ -22,10 +22,14 @@ export type MessageStatus = "new" | "contacted" | "archived";
 
 export type LeadMessageRecord = {
   id: string;
-  lead_type: "账号上架" | "求购" | "客服";
+  lead_type: "账号上架" | "求购" | "客服" | "类型2";
   contact_name: string;
   contact_value: string;
   remark: string | null;
+  current_assets: string | null;
+  coin_only: string | null;
+  aw: string | null;
+  knife_skin: string | null;
   status: MessageStatus;
   created_at: string;
   updated_at: string;

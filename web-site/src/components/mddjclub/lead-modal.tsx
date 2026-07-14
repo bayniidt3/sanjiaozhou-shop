@@ -11,13 +11,23 @@ type LeadModalProps = {
   onClose: () => void;
 };
 
-const leadTypeOptions: LeadType[] = ["账号上架", "求购", "客服"];
+const leadTypeOptions: LeadType[] = ["账号上架", "求购", "客服", "类型2"];
+const type2FieldLabels = [
+  { key: "currentAssets", label: "流动资产", placeholder: "请输入流动资产" },
+  { key: "coinOnly", label: "纯币", placeholder: "请输入纯币" },
+  { key: "aw", label: "AW", placeholder: "请输入 AW" },
+  { key: "knifeSkin", label: "刀皮", placeholder: "请输入刀皮" },
+] as const;
 
 export function LeadModal({ defaultType, open, onClose }: LeadModalProps) {
   const [type, setType] = useState<LeadType>("账号上架");
   const [name, setName] = useState("");
   const [contact, setContact] = useState("");
   const [remark, setRemark] = useState("");
+  const [currentAssets, setCurrentAssets] = useState("");
+  const [coinOnly, setCoinOnly] = useState("");
+  const [aw, setAw] = useState("");
+  const [knifeSkin, setKnifeSkin] = useState("");
   const [submitted, setSubmitted] = useState(false);
   const [submitting, setSubmitting] = useState(false);
   const [error, setError] = useState("");
@@ -29,6 +39,15 @@ export function LeadModal({ defaultType, open, onClose }: LeadModalProps) {
       setError("");
     }
   }, [defaultType]);
+
+  useEffect(() => {
+    if (type !== "类型2") {
+      setCurrentAssets("");
+      setCoinOnly("");
+      setAw("");
+      setKnifeSkin("");
+    }
+  }, [type]);
 
   if (!open) return null;
 
@@ -54,6 +73,10 @@ export function LeadModal({ defaultType, open, onClose }: LeadModalProps) {
           contactValue: contact,
           leadType: type,
           remark,
+          currentAssets,
+          coinOnly,
+          aw,
+          knifeSkin,
         }),
       });
 
@@ -66,6 +89,10 @@ export function LeadModal({ defaultType, open, onClose }: LeadModalProps) {
       setName("");
       setContact("");
       setRemark("");
+      setCurrentAssets("");
+      setCoinOnly("");
+      setAw("");
+      setKnifeSkin("");
     } catch (submitError) {
       setError(submitError instanceof Error ? submitError.message : "提交失败");
     } finally {
@@ -146,6 +173,34 @@ export function LeadModal({ defaultType, open, onClose }: LeadModalProps) {
                 className="h-12 w-full rounded-[10px] border border-[#dce5f0] px-4 text-[14px] outline-none transition-colors focus:border-[#4698f3]"
               />
             </div>
+            {type === "类型2"
+              ? type2FieldLabels.map((field) => {
+                  const valueMap = {
+                    currentAssets,
+                    coinOnly,
+                    aw,
+                    knifeSkin,
+                  };
+                  const setterMap = {
+                    currentAssets: setCurrentAssets,
+                    coinOnly: setCoinOnly,
+                    aw: setAw,
+                    knifeSkin: setKnifeSkin,
+                  };
+
+                  return (
+                    <div key={field.key}>
+                      <label className="mb-2 block text-[14px] font-medium text-[#4b5563]">{field.label}</label>
+                      <input
+                        value={valueMap[field.key]}
+                        onChange={(event) => setterMap[field.key](event.target.value)}
+                        placeholder={field.placeholder}
+                        className="h-12 w-full rounded-[10px] border border-[#dce5f0] px-4 text-[14px] outline-none transition-colors focus:border-[#4698f3]"
+                      />
+                    </div>
+                  );
+                })
+              : null}
             <div>
               <label className="mb-2 block text-[14px] font-medium text-[#4b5563]">备注</label>
               <textarea
