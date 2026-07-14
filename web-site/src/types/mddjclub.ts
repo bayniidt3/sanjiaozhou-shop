@@ -3,7 +3,7 @@ export type HeaderLink = {
   label: string;
 };
 
-export type LeadType = "账号上架" | "求购" | "客服" | "类型2";
+export type LeadType = "账号上架" | "求购" | "客服";
 
 export type ProductCard = {
   id: string;

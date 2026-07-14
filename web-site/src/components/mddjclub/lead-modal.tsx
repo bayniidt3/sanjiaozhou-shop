@@ -11,23 +11,22 @@ type LeadModalProps = {
   onClose: () => void;
 };
 
-const leadTypeOptions: LeadType[] = ["账号上架", "求购", "客服", "类型2"];
-const type2FieldLabels = [
-  { key: "currentAssets", label: "流动资产", placeholder: "请输入流动资产" },
-  { key: "coinOnly", label: "纯币", placeholder: "请输入纯币" },
-  { key: "aw", label: "AW", placeholder: "请输入 AW" },
-  { key: "knifeSkin", label: "刀皮", placeholder: "请输入刀皮" },
+const leadTypeOptions: LeadType[] = ["账号上架", "求购", "客服"];
+const type2Options = [
+  { key: "currentAssets", label: "流动资产" },
+  { key: "coinOnly", label: "纯币" },
+  { key: "aw", label: "AW" },
+  { key: "knifeSkin", label: "刀皮" },
 ] as const;
+
+type Type2OptionKey = (typeof type2Options)[number]["key"];
 
 export function LeadModal({ defaultType, open, onClose }: LeadModalProps) {
   const [type, setType] = useState<LeadType>("账号上架");
   const [name, setName] = useState("");
   const [contact, setContact] = useState("");
   const [remark, setRemark] = useState("");
-  const [currentAssets, setCurrentAssets] = useState("");
-  const [coinOnly, setCoinOnly] = useState("");
-  const [aw, setAw] = useState("");
-  const [knifeSkin, setKnifeSkin] = useState("");
+  const [type2Selections, setType2Selections] = useState<Type2OptionKey[]>([]);
   const [submitted, setSubmitted] = useState(false);
   const [submitting, setSubmitting] = useState(false);
   const [error, setError] = useState("");
@@ -40,16 +39,13 @@ export function LeadModal({ defaultType, open, onClose }: LeadModalProps) {
     }
   }, [defaultType]);
 
-  useEffect(() => {
-    if (type !== "类型2") {
-      setCurrentAssets("");
-      setCoinOnly("");
-      setAw("");
-      setKnifeSkin("");
-    }
-  }, [type]);
-
   if (!open) return null;
+
+  const toggleType2Option = (key: Type2OptionKey) => {
+    setType2Selections((current) =>
+      current.includes(key) ? current.filter((item) => item !== key) : [...current, key]
+    );
+  };
 
   const handleSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
@@ -73,10 +69,10 @@ export function LeadModal({ defaultType, open, onClose }: LeadModalProps) {
           contactValue: contact,
           leadType: type,
           remark,
-          currentAssets,
-          coinOnly,
-          aw,
-          knifeSkin,
+          currentAssets: type2Selections.includes("currentAssets") ? "流动资产" : "",
+          coinOnly: type2Selections.includes("coinOnly") ? "纯币" : "",
+          aw: type2Selections.includes("aw") ? "AW" : "",
+          knifeSkin: type2Selections.includes("knifeSkin") ? "刀皮" : "",
         }),
       });
 
@@ -89,10 +85,7 @@ export function LeadModal({ defaultType, open, onClose }: LeadModalProps) {
       setName("");
       setContact("");
       setRemark("");
-      setCurrentAssets("");
-      setCoinOnly("");
-      setAw("");
-      setKnifeSkin("");
+      setType2Selections([]);
     } catch (submitError) {
       setError(submitError instanceof Error ? submitError.message : "提交失败");
     } finally {
@@ -173,34 +166,29 @@ export function LeadModal({ defaultType, open, onClose }: LeadModalProps) {
                 className="h-12 w-full rounded-[10px] border border-[#dce5f0] px-4 text-[14px] outline-none transition-colors focus:border-[#4698f3]"
               />
             </div>
-            {type === "类型2"
-              ? type2FieldLabels.map((field) => {
-                  const valueMap = {
-                    currentAssets,
-                    coinOnly,
-                    aw,
-                    knifeSkin,
-                  };
-                  const setterMap = {
-                    currentAssets: setCurrentAssets,
-                    coinOnly: setCoinOnly,
-                    aw: setAw,
-                    knifeSkin: setKnifeSkin,
-                  };
-
+            <div>
+              <label className="mb-2 block text-[14px] font-medium text-[#4b5563]">类型2</label>
+              <div className="flex flex-wrap gap-3">
+                {type2Options.map((option) => {
+                  const active = type2Selections.includes(option.key);
                   return (
-                    <div key={field.key}>
-                      <label className="mb-2 block text-[14px] font-medium text-[#4b5563]">{field.label}</label>
-                      <input
-                        value={valueMap[field.key]}
-                        onChange={(event) => setterMap[field.key](event.target.value)}
-                        placeholder={field.placeholder}
-                        className="h-12 w-full rounded-[10px] border border-[#dce5f0] px-4 text-[14px] outline-none transition-colors focus:border-[#4698f3]"
-                      />
-                    </div>
+                    <button
+                      key={option.key}
+                      type="button"
+                      onClick={() => toggleType2Option(option.key)}
+                      className={[
+                        "rounded-full border px-4 py-2 text-[14px] font-medium transition-colors",
+                        active
+                          ? "border-[#4698f3] bg-[#eef6ff] text-[#4698f3]"
+                          : "border-[#dce5f0] text-[#6b7280]",
+                      ].join(" ")}
+                    >
+                      {option.label}
+                    </button>
                   );
-                })
-              : null}
+                })}
+              </div>
+            </div>
             <div>
               <label className="mb-2 block text-[14px] font-medium text-[#4b5563]">备注</label>
               <textarea

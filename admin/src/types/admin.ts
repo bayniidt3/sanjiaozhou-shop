@@ -22,7 +22,7 @@ export type MessageStatus = "new" | "contacted" | "archived";
 
 export type LeadMessageRecord = {
   id: string;
-  lead_type: "账号上架" | "求购" | "客服" | "类型2";
+  lead_type: "账号上架" | "求购" | "客服";
   contact_name: string;
   contact_value: string;
   remark: string | null;
