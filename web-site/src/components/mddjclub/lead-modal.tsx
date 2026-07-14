@@ -92,8 +92,9 @@ export function LeadModal({ defaultType, open, onClose }: LeadModalProps) {
   };
 
   return (
-    <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/45 p-4">
-      <div className="w-full max-w-[520px] rounded-[20px] bg-white shadow-[0_28px_80px_rgba(15,23,42,0.28)]">
+    <div className="fixed inset-0 z-50 overflow-y-auto bg-black/45 p-4">
+      <div className="flex min-h-full items-center justify-center py-4">
+        <div className="max-h-[calc(100vh-32px)] w-full max-w-[520px] overflow-y-auto rounded-[20px] bg-white shadow-[0_28px_80px_rgba(15,23,42,0.28)]">
         <div className="flex items-center justify-between border-b border-[#edf1f6] px-6 py-5">
           <div>
             <h2 className="text-[22px] font-semibold text-[#1f2937]">留下联系方式</h2>
@@ -164,32 +165,34 @@ export function LeadModal({ defaultType, open, onClose }: LeadModalProps) {
                 className="h-12 w-full rounded-[10px] border border-[#dce5f0] px-4 text-[14px] outline-none transition-colors focus:border-[#4698f3]"
               />
             </div>
-            {type2FieldLabels.map((field) => {
-              const valueMap = {
-                currentAssets,
-                coinOnly,
-                aw,
-                knifeSkin,
-              };
-              const setterMap = {
-                currentAssets: setCurrentAssets,
-                coinOnly: setCoinOnly,
-                aw: setAw,
-                knifeSkin: setKnifeSkin,
-              };
+            {type !== "客服"
+              ? type2FieldLabels.map((field) => {
+                  const valueMap = {
+                    currentAssets,
+                    coinOnly,
+                    aw,
+                    knifeSkin,
+                  };
+                  const setterMap = {
+                    currentAssets: setCurrentAssets,
+                    coinOnly: setCoinOnly,
+                    aw: setAw,
+                    knifeSkin: setKnifeSkin,
+                  };
 
-              return (
-                <div key={field.key}>
-                  <label className="mb-2 block text-[14px] font-medium text-[#4b5563]">{field.label}</label>
-                  <input
-                    value={valueMap[field.key]}
-                    onChange={(event) => setterMap[field.key](event.target.value)}
-                    placeholder={field.placeholder}
-                    className="h-12 w-full rounded-[10px] border border-[#dce5f0] px-4 text-[14px] outline-none transition-colors focus:border-[#4698f3]"
-                  />
-                </div>
-              );
-            })}
+                  return (
+                    <div key={field.key}>
+                      <label className="mb-2 block text-[14px] font-medium text-[#4b5563]">{field.label}</label>
+                      <input
+                        value={valueMap[field.key]}
+                        onChange={(event) => setterMap[field.key](event.target.value)}
+                        placeholder={field.placeholder}
+                        className="h-12 w-full rounded-[10px] border border-[#dce5f0] px-4 text-[14px] outline-none transition-colors focus:border-[#4698f3]"
+                      />
+                    </div>
+                  );
+                })
+              : null}
             <div>
               <label className="mb-2 block text-[14px] font-medium text-[#4b5563]">备注</label>
               <textarea
@@ -218,6 +221,7 @@ export function LeadModal({ defaultType, open, onClose }: LeadModalProps) {
             </div>
           </form>
         )}
+      </div>
       </div>
     </div>
   );
