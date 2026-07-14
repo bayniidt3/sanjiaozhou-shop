@@ -87,9 +87,13 @@ insert into public.lead_messages (
   lead_type,
   contact_name,
   contact_value,
+  current_assets,
+  coin_only,
+  aw,
+  knife_skin,
   remark,
   status
 ) values
-  ('求购', '张先生', '微信 mddj001', '优先联系晚上 8 点后', 'new'),
-  ('客服', '李女士', '13800000000', '想咨询押金规则', 'contacted')
+  ('求购', '张先生', '微信 mddj001', '5000', '3000', '2把', '蝴蝶刀', '优先联系晚上 8 点后', 'new'),
+  ('客服', '李女士', '13800000000', null, null, null, null, '想咨询押金规则', 'contacted')
 on conflict do nothing;
