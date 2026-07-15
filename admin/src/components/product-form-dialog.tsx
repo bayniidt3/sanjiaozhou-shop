@@ -1,9 +1,9 @@
 "use client";
 
-import Image from "next/image";
-import { useEffect, useState } from "react";
+import Image from "next/image"
+import { useEffect, useState } from "react"
 
-import type { ProductRecord, ProductStatus } from "@/types/admin";
+import type { ProductRecord, ProductStatus } from "@/types/admin"
 
 type ProductFormValues = {
   title: string;
@@ -122,7 +122,7 @@ export function ProductFormDialog({
     <div className="fixed inset-0 z-50 flex items-center justify-center bg-[#08121fcc] p-4">
       <form
         onSubmit={handleSubmit}
-        className="w-full max-w-[860px] rounded-[28px] border border-white/70 bg-white p-6 shadow-[0_30px_80px_rgba(8,18,31,0.35)]"
+        className="w-full max-w-[860px] max-h-[90vh] overflow-y-auto rounded-[28px] border border-white/70 bg-white p-6 shadow-[0_30px_80px_rgba(8,18,31,0.35)]"
       >
         <div className="flex items-center justify-between">
           <div>
